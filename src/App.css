@@ -129,20 +129,21 @@ background-repeat: no-repeat;
   writing-mode: vertical-rl;
   text-orientation: upright;
   position: relative;
-  top: 300px;
+  top: 250px;
   color: #edc87e;
 }
 
 .honeySide {
   position: relative;
-  bottom: 956px;
+  bottom: 300px;
   left: 860px;
-  overflow: hidden;
   font-family: muliFont;
 }
 .honeyH1 {
+  font-size: 3rem;
   position: relative;
-  left: -200px !important;
+  left: -100px !important;
+  bottom: 200px;
   color: white;
   font-family: moonFont;
 }
@@ -151,32 +152,32 @@ background-repeat: no-repeat;
 .honeyP {
   width: 30%;
   position: relative;
-  bottom: -17px;
-  left: 578px;
+  bottom: 217px;
+  left: 678px;
   color: white;
 }
+.honeyIcon {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 600px;
+  left: 800px;
+}
+
 
 .gallery{
   position:relative;
-  height:100%;
   width:100%;
   left: 470px;
   bottom: 300px;
+  height: 40%;
 }
 
 .gallery:after{
   content:'';
 }
 
-.shadow{
-  position: absolute;
-  top: 500px;
-  left: 100px;
-  width: 500px;
-  height: 40px;
-  border-radius: 50%;
-  background: radial-gradient(#514a50,rgba(0,0,0,0) 70%);
-}
+
 
 img{
   width:var(--width);

@@ -7,6 +7,7 @@ import HoneyFiltering from '../../assets/images/HoneyImages/HoneyFiltering.jpg'
 import oneOzHoney from '../../assets/images/HoneyImages/oneOzHoney.jpg'
 import TwoBigOneSmall from '../../assets/images/HoneyImages/TwoBigOneSmall.jpg'
 import TwoSmallOneBig from '../../assets/images/HoneyImages/TwoSmallOneBig.jpg'
+import honeyIcon from '../../assets/images/HoneyImages/apitherapy.png'
 
 
 
@@ -54,7 +55,9 @@ function Honey() {
   </div>
   <div class = "shadow"></div>
 </div>
+<img className="honeyIcon" src={honeyIcon}/>
 <div className="honeySide">
+  
   <Zoom>
   <h1 className="honeyH1">How we do it?</h1>
   </Zoom>
