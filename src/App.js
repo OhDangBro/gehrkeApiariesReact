@@ -1,5 +1,6 @@
 
 import './App.css';
+import Chapstick from './components/Chapstick';
 import Hero from './components/Hero';
 import Honey from './components/Honey';
 
@@ -8,9 +9,9 @@ function App() {
     
     <div className="App">
       <Hero/>
-      <body>
+      
        <Honey/>
-       </body>
+      <Chapstick/>
     </div>
   );
 }
