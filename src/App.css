@@ -2,10 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wholeNav {
+  position: relative;
+  z-index: 1000;
+  width: 100%;
 }
+
+
+
+
 
 /* <--- FONT START ----> */
 @font-face {
@@ -115,198 +120,66 @@
 /* <----------- HONEY START ------------> */
 
 
-.honeySection {
-  background: cadetblue;
-  /* height: 100vh !important; */
-  min-height: 100vh;
-  height: auto;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(39, 42, 59, 0.6) 100%, transparent 0), linear-gradient(300deg, rgba(255, 255, 255, 9.7) 45%, transparent 0), url(../src/assets/images/FlowerCircle.svg);
-  /* background-position: 320px; */
-  background-position: 250px;
-  display: flex;
 
+
+.imageSide {
+  height: 100vh;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358543417) 5%, rgba(255,255,255,1) 100%);
 }
 
-.honeyIntro {
-  font-family: honeyFont;
-  font-size: 6rem;
-  letter-spacing: 2rem;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  position: relative;
-  color: #edc87e;
-  padding-top: 2rem;
-}
-
-.honeySide {
-  position: relative;
-  /* bottom: 956px;
-  left: 860px; */
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  font-family: muliFont;
-  margin-bottom: 5rem;
-}
-
-.honeyH1 {
-  position: relative;
-  color: white;
-  font-family: moonFont;
-  padding-bottom: 1rem;
-}
-
-
-.honeyP {
-  position: relative;
-  color: white;
-  padding-bottom: 5rem;
-  padding-left: 2rem;
-  margin: -1rem;
-}
-
-.honeyIcon {
-  position: relative;
-  height: 100px;
-  width: 100px;
-  margin-left: 350px;
-  margin-bottom: 15px;
-}
-
-.verticalHoney {
-  width: 18%;
-  padding-top: 10em;
-}
-
-.gallery {
-  position: relative;
-  height: 450px;
-  width: 44%;
-  margin-top: 22rem;
-}
-
-.gallery img {
-  width: 300px;
-  height: 300px;
-}
-
-.gallery:after {
-  content: '';
-}
-
-
-
-img {
-  width: var(--width);
-  height: var(--height);
-}
-
-.clipped-border {
-  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  padding: 5px;
-  background: linear-gradient(grey, lightgrey);
-  max-height: 250px;
-  max-width: 250px;
-  height: 250px;
-  width: 250px;
-  transition: transform 0.2s;
-  position: absolute;
-  cursor: pointer;
-}
-
-
-
-.clipped-border:before {
-  content: '';
-  position: absolute;
-  opacity: 0.5;
-  width: 350px;
-  height: 70px;
-  background: white;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  transform: rotate(45deg);
-  transition: transform 0.5s;
-}
-
-.clipped-border:hover:before {
-  transform: translate(-100px, 400%) rotate(45deg);
-  transition: transform 0.5s;
-}
-
-.clipped-border:nth-child(2) {
-  top: 196px;
-  left: 118px;
-}
-
-.clipped-border:nth-child(3) {
-  top: 0;
-  left: 235px;
-}
-
-.clipped-border:nth-child(4) {
-  top: 196px;
-  left: 353px;
-}
-
-.clipped-border:nth-child(5) {
-  top: 0;
-  left: 470px;
-}
-
-#clipped {
-  clip-path: polygon(50% -13%, 113% 33%, 114% 83%, 49% 100%, 0% 62%, -31% 21%);
-}
-
-.clipped-border:hover {
-  transform: scale(1.2);
-  transition: transform 0.2s;
-  z-index: 10;
-}
-
-
-@media screen and (max-width:500px) {
-  .clipped-border {
-    width: 100px;
-    height: 100px;
-  }
-
-  .clipped-border:nth-child(2) {
-    top: 0;
-    left: 100px;
-  }
-
-  .clipped-border:nth-child(3) {
-    left: 200px;
-  }
-
-  .clipped-border:nth-child(4) {
-    top: 82px;
-    left: 50px;
-  }
-
-  .clipped-border:nth-child(5) {
-    top: 82px;
-    left: 150px;
-  }
-}
-
-img {
-  background: center/cover no-repeat;
+/* Split the screen in half */
+.split {
   height: 100%;
-  width: 100%
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+
 }
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #d1622a;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #d1622a;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
 
 /* <----------- HONEY END ------------> */
 
 
 
+.honeyText {
+  font-family: honeyFont;
+  color:#eda342;
+  font-size: 4rem;
+}
 
-
+.honeyP {
+  color: #efeaca;
+  position: relative;
+  font-size: 1.25rem;
+  overflow: hidden !important;
+  font-family: muliFont;
+}
 
 
 
@@ -319,58 +192,31 @@ img {
 
 
 /* <----------- CHAPSTICK START ------------> */
-.chapstickSection {
-  background: cadetblue;
-  height: 100vh !important;
-  min-height: 100vh;
-  height: auto;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(412deg, rgba(254, 255, 255, 0.6) 0%, transparent 0), linear-gradient(rgba(41, 42, 59, 0.6) 100%, transparent 0), linear-gradient(412deg, rgba(254, 255, 255, 0.6) 60%, transparent 0), url(../src/assets/images/FlowerCircle.svg);
- 
-  display: flex;
+/* Control the left side */
+.chapstickleft {
+  left: 0;
+  background-color: #bbdbb6;
 }
 
-.chapstickgallery {
-  position: relative;
-  height: 450px;
-  width: 44%;
-  margin-top: 22rem;
-  margin-left: 11rem;
+/* Control the right side */
+.chapstickright {
+  right: 0;
+  background-color: #bbdbb6;
 }
-
-
-.chapstickIntro {
-  font-family: honeyFont;
-  font-size: 3rem;
-  letter-spacing: 2rem;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  position: relative;
-  color: #edc87e;
-  padding-top: 2rem;
-  bottom: 62rem;
-  margin-left: 134rem;
-}
-
-
-
-.chapstickSide {
-  position: relative;
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  font-family: muliFont;
-  margin-bottom: 30rem;
-  padding-left: 15rem;
-}
-
 
 .chapstickP {
+  color: #efeaca;
   position: relative;
-  color: white;
-  padding-bottom: 5rem;
-  padding-left: 2rem;
-  margin: -1rem;
+  font-size: 1.25rem;
+  overflow: hidden !important;
+  font-family: muliFont;
 }
+
+.chapstickText {
+  font-family: moonFont;
+  color: #efeacb;
+  font-size: 4rem;
+}
+
+
 /* <----------- CHAPSTICK END ------------> */

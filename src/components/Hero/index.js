@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 function Hero() {
   return (
-    <>
+    <section id="Home">
       <div style={{display: 'flex', justifyContent: 'right', alignItems: 'center'}} class="hero-image">
         <div style={{width: '600px'}} className="hero-container">
           <Fade bottom>
@@ -26,7 +26,7 @@ function Hero() {
         </div>
         
       </div>
-    </>
+      </section>
   );
 }
 
