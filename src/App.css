@@ -8,20 +8,9 @@
   width: 100%;
 }
 
-.chapstickgallery {
-  position: relative;
-  height: 450px;
-  width: 100%;
-  margin-top: 25%;
-  margin-left: 10%
 
-}
 
-.chapstickgallery img {
-  width: 300px;
-  height: 300px;
-}
-
+/* <-------- Hexagons Start -----> */
 .gallery:after {
   content: '';
 }
@@ -135,7 +124,7 @@ img {
   }
 }
 
-
+/* <-------- Hexagons End -----> */
 
 
 /* <--- FONT START ----> */
@@ -164,6 +153,13 @@ img {
 .App-link {
   color: #61dafb;
 }
+
+
+
+
+
+
+
 
 
 /* <----------- HERO START ------------> */
@@ -242,7 +238,6 @@ img {
 
 
 
-
 /* <----------- HONEY START ------------> */
 
 
@@ -286,6 +281,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
   text-align: center;
 }
 
+.naturalIcon {
+  padding-right: 35px;
+}
+
 
 
 
@@ -293,20 +292,52 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
 
 
 
+
+.honeyLeft {
+  left: 0;
+  background-color: #d1622a !important;
+}
+
+.honeyRight {
+  right: 0;
+  background-color: #d1622a !important;
+}
+
 .honeyText {
   font-family: honeyFont;
   color:#eda342;
-  font-size: 4rem;
+  font-size: 7rem;
 }
 
-.honeyP {
-  color: #efeaca;
+.honeyTextTop {
+  padding-left: 20rem;
   position: relative;
-  font-size: 1.25rem;
-  overflow: hidden !important;
-  font-family: muliFont;
+  top: 10rem;
+  right: 9rem;
+  text-align: center;
+  color:#eda342;
 }
 
+
+.honeyGallery img {
+  width: 300px;
+  height: 300px;
+}
+
+.honeyGallery {
+  padding-top: 10rem;
+}
+
+
+
+.honeyCentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-right: 15rem !important;
+}
 
 
 
@@ -333,9 +364,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
 .chapstickP {
   color: #efeaca;
   position: relative;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   overflow: hidden !important;
   font-family: muliFont;
+  width: 45rem;
 }
 
 .chapstickText {
@@ -345,9 +377,44 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
 }
 
 .chapstickIcon {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
+.chapstickgallery {
+  position: relative;
+  height: 450px;
+  width: 65%;
+  margin-top: 30%;
+  margin-left: 15%;
+}
+
+.chapstickgallery img {
+  width: 300px;
+  height: 300px;
+}
+
+.chapstickCentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-right: 15rem !important;
+}
 
 /* <----------- CHAPSTICK END ------------> */
+
+
+
+
+
+
+
+
+/* <----------- BEES START ------------> */
+
+
+
+
+/* <----------- BEES END ------------> */

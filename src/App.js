@@ -25,7 +25,7 @@ function App() {
     
     <>
     <main id="Main">{renderPage()}</main>
-    <Navi currentPage={currentPage} handleClick={handlePageChange}></Navi>
+    {/* <Navi currentPage={currentPage} handleClick={handlePageChange}></Navi> */}
     </>
   );
 }

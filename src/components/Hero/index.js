@@ -19,10 +19,11 @@ function Hero() {
             <Fade right>
               <p>From our hive, to your home.</p>
             </Fade>
-            <Fade top>
+      
+          </div>
+          <Fade top>
               <h1 className="heroHoneyChapstick" >Honey & Chapstick</h1>
             </Fade>
-          </div>
         </div>
         
       </div>
