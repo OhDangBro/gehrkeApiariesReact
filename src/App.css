@@ -3,28 +3,37 @@
 }
 
 .wholeNav {
+  z-index: 2;
   position: relative;
-  z-index: 1000;
-  width: 100%;
+
 }
 
 .navBar {
+  background-color: #e2ad22 !important;
+
+}
+
+/* // navbar width // */
+.css-qxh7fn {
   width: 100%;
-  position:absolute;
+  
+}
+
+.css-1t2cg5g-MuiBottomNavigation-root {
+  background-color: burlywood !important;
 }
 
 
-
-
+/* <-------- BUTTON START --------> */
 
 /* CSS */
 .button-74 {
   position: relative;
   width: 20%;
   height: 10%;
-   margin-top: 80%;
-   margin-left: 40%;
-   margin-bottom: 0;
+  margin-top: 80%;
+  margin-left: 40%;
+  margin-bottom: 0;
   background-color: #efeaca;
   border: 2px solid #eda342;
   border-radius: 30px;
@@ -60,19 +69,33 @@
 }
 
 
+/* <-------- BUTTON START --------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* <-------- Hexagons Start -----> */
 .gallery:after {
   content: '';
 }
 
-.shadow{
+.shadow {
   position: absolute;
   top: 500px;
   left: 100px;
   width: 500px;
   height: 40px;
   border-radius: 50%;
-  background: radial-gradient(#514a50,rgba(0,0,0,0) 70%);
+  background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
 }
 
 
@@ -177,6 +200,7 @@ img {
 /* <-------- Hexagons End -----> */
 
 
+
 /* <--- FONT START ----> */
 @font-face {
   font-family: honeyFont;
@@ -192,17 +216,12 @@ img {
   font-family: moonFont;
   src: url("../src/assets/fonts/MoonTypeface/Moon\ Light.otf")
 }
-
-
-
 /* <--- FONT END ----> */
 
 
 
 
-.App-link {
-  color: #61dafb;
-}
+
 
 
 
@@ -216,7 +235,7 @@ img {
 .hero-container {
   padding: 250px;
   padding-bottom: 50px;
-  
+
 }
 
 .hero-image {
@@ -273,7 +292,7 @@ img {
   font-size: 1.5rem;
   overflow: hidden !important;
   font-family: muliFont;
- 
+
 }
 
 /* <----------- HERO END ------------> */
@@ -283,21 +302,7 @@ img {
 
 
 
-
-
-
-
-
-/* <----------- HONEY START ------------> */
-
-
-
-
-.imageSide {
-  height: 100vh;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358543417) 5%, rgba(255,255,255,1) 100%);
-}
+/* <----------- OnEveryPage Start ------------> */
 
 /* Split the screen in half */
 .split {
@@ -307,35 +312,90 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-
 }
 
-/* Control the left side */
-.left {
-  left: 0;
-  background-color: #d1622a;
-}
 
-/* Control the right side */
-.right {
-  right: 0;
-  background-color: #d1622a;
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.bigIcon {
+  height: 150px;
+  width: 150px;
+  padding-left: 25%;
+  padding-top: 5%;
 }
 
 .naturalIcon {
   padding-right: 35px;
 }
 
+.gallery {
+  position: relative;
+  height: 450px;
+  width: 65%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
 
+.gallery img {
+  width: 300px;
+  height: 300px;
+}
+
+.detailsP {
+  color: #efeaca;
+  position: relative;
+  font-size: 1.75rem;
+  overflow: hidden !important;
+  font-family: muliFont;
+  width: 50rem;
+}
+
+.detailsTop {
+  color: #efeaca;
+  position: relative;
+  font-size: 1.75rem;
+  overflow: hidden !important;
+  font-family: muliFont;
+  width: 45rem;
+}
+
+.containerTextTop {
+  padding-left: 20rem;
+  position: relative;
+  top: 5rem;
+  right: 9rem;
+  text-align: center;
+  color: #eda342;
+}
+
+/* <----------- OnEveryPage End ------------> */
+
+
+
+
+
+
+
+/* <----------- HONEY START ------------> */
+.honeySection {
+  height: 100vh;
+}
+
+.honeyText {
+  font-family: honeyFont;
+  color: #eda342;
+  font-size: 7rem;
+  padding-left: 17%
+}
+
+.honeyLeft {
+  left: 0;
+  background-color: #d1622a !important;
+}
+
+
+.honeyRight {
+  right: 0;
+  background-color: #d1622a !important;
+}
 
 
 /* <----------- HONEY END ------------> */
@@ -343,51 +403,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
 
 
 
-.honeyLeft {
-  left: 0;
-  background-color: #d1622a !important;
-}
-
-.honeyRight {
-  right: 0;
-  background-color: #d1622a !important;
-}
-
-.honeyText {
-  font-family: honeyFont;
-  color:#eda342;
-  font-size: 7rem;
-}
-
-.honeyTextTop {
-  padding-left: 20rem;
-  position: relative;
-  top: 5rem;
-  right: 9rem;
-  text-align: center;
-  color:#eda342;
-}
-
-
-.honeyGallery img {
-  width: 300px;
-  height: 300px;
-}
-
-.honeyGallery {
-  padding-top: 10rem;
-}
 
 
 
-.honeyCentered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  padding-right: 15rem !important;
-}
+
+
 
 
 
@@ -411,23 +431,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
   background-color: #bbdbb6;
 }
 
-.chapstickP {
-  color: #efeaca;
-  position: relative;
-  font-size: 1.75rem;
-  overflow: hidden !important;
-  font-family: muliFont;
-  width: 50rem;
-}
 
-.chapstickPTop {
-  color: #efeaca;
-  position: relative;
-  font-size: 1.75rem;
-  overflow: hidden !important;
-  font-family: muliFont;
-  width: 45rem;
-}
 
 .chapstickText {
   font-family: moonFont;
@@ -435,23 +439,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
   font-size: 4rem;
 }
 
-.chapstickIcon {
-  height: 200px;
-  width: 200px;
-}
 
-.chapstickgallery {
-  position: relative;
-  height: 450px;
-  width: 65%;
-  margin-top: 10%;
-  margin-left: 15%;
-}
-
-.chapstickgallery img {
-  width: 300px;
-  height: 300px;
-}
 
 .chapstickCentered {
   position: absolute;

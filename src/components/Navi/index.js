@@ -14,6 +14,7 @@ function Navi({ handleClick }) {
       <div className="wholeNav">
        <Box className="navBar" sx={{ width: 500 }}>
       <BottomNavigation
+      sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}
       className="bottomNav"
         showLabels
         value={value}
@@ -25,7 +26,7 @@ function Navi({ handleClick }) {
              
              onClick={() => handleClick("Home")}
            >
-        <BottomNavigationAction href="#Home" label="Home" icon={<HomeIcon />} />
+        <BottomNavigationAction href="#Home" label="Home" icon={<HomeIcon /> } />
         </span>
         <span
              
