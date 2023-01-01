@@ -29,8 +29,8 @@ function Honey() {
    <div class="split honeyLeft" >
     <div className="honeyTextTop">
     <img className="naturalIcon" alt="chapstick icon" src={NaturalIcon}/>
-   <p className="chapstickP">100% Pure Organic, Raw & Unfiltered</p>
-   <p className="chapstickP">From our hive, to your home.</p>
+   <p className="chapstickPTop">100% Pure Organic, Raw & Unfiltered</p>
+   <p className="chapstickPTop">From our hive, to your home.</p>
    </div>
    <div class = "chapstickgallery">
   <div class="clipped-border">
@@ -49,6 +49,7 @@ function Honey() {
     <img src={TwoSmallOneBig} id="clipped"/>
   </div>
   <div class = "shadow"></div>
+  <button class="button-74" role="button"> 🍯 </button>
 </div>
    </div>
 <div class="split honeyRight">

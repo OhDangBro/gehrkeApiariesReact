@@ -8,6 +8,56 @@
   width: 100%;
 }
 
+.navBar {
+  width: 100%;
+  position:absolute;
+}
+
+
+
+
+
+/* CSS */
+.button-74 {
+  position: relative;
+  width: 20%;
+  height: 10%;
+   margin-top: 80%;
+   margin-left: 40%;
+   margin-bottom: 0;
+  background-color: #efeaca;
+  border: 2px solid #eda342;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
 
 
 /* <-------- Hexagons Start -----> */
@@ -312,7 +362,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
 .honeyTextTop {
   padding-left: 20rem;
   position: relative;
-  top: 10rem;
+  top: 5rem;
   right: 9rem;
   text-align: center;
   color:#eda342;
@@ -367,6 +417,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
   font-size: 1.75rem;
   overflow: hidden !important;
   font-family: muliFont;
+  width: 50rem;
+}
+
+.chapstickPTop {
+  color: #efeaca;
+  position: relative;
+  font-size: 1.75rem;
+  overflow: hidden !important;
+  font-family: muliFont;
   width: 45rem;
 }
 
@@ -385,7 +444,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,53,53,0.6069021358
   position: relative;
   height: 450px;
   width: 65%;
-  margin-top: 30%;
+  margin-top: 10%;
   margin-left: 15%;
 }
 
