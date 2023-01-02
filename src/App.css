@@ -233,9 +233,12 @@ img {
 
 /* <----------- HERO START ------------> */
 .hero-container {
-  display: flex-wrap;
-  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   height: 100%;
+  padding-bottom: 20%;
+  padding-right: 10%;
 }
 
 .hero-image {
@@ -277,8 +280,6 @@ img {
   z-index: 1;
   color: white;
   position: relative;
-  top: 10px;
-  left: 5px;
   font-size: 2.5rem;
   overflow: hidden !important;
   font-family: moonFont;
@@ -309,7 +310,6 @@ img {
 .split {
   height: 100%;
   width: 50%;
-  /* position: fixed; */
   z-index: 1;
   top: 0;
   overflow-x: hidden;
@@ -432,13 +432,13 @@ align-items: center;
 
 /* <----------- CHAPSTICK START ------------> */
 /* Control the left side */
-.chapstickleft {
+.chapstickLeft {
   left: 0;
   background-color: #bbdbb6;
 }
 
 /* Control the right side */
-.chapstickright {
+.chapstickRight {
   right: 0;
   background-color: #bbdbb6;
 }
