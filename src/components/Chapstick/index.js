@@ -29,6 +29,7 @@ function Chapstick() {
                             <p className="detailsTop">From our hive, to your home.</p>
                             </Fade>
                         </div>
+                        <div className="galleryContainer">
                         <div class="gallery">
                             <div class="clipped-border">
                                 <img src={ChapstickOne} id="clipped" />
@@ -47,6 +48,7 @@ function Chapstick() {
                             </div>
                             <div class="shadow"></div>
                             {/* <button class="button-74" role="button"> 🍯 </button> */}
+                        </div>
                         </div>
                     </div>
                     <div class="split chapstickRight">

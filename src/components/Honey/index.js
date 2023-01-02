@@ -26,6 +26,7 @@ function Honey() {
                             <p className="detailsTop">From our hive, to your home.</p>
                             </Fade>
                         </div>
+                        
                         <div class="gallery">
                             <div class="clipped-border">
                                 <img src={fourOzHoney} id="clipped" />
@@ -45,6 +46,7 @@ function Honey() {
                             <div class="shadow"></div>
                             {/* <button class="button-74" role="button"> 🍯 </button> */}
                         </div>
+                        
                     </div>
                     <div class="split honeyRight">
                         <div class="centered">
