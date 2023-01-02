@@ -11,15 +11,6 @@ import NaturalIcon from '../../assets/images/growth.png'
 
 
 
-
-
-
-
-
-
-
-
-
 function Honey() {
     return (
         <>
@@ -28,8 +19,12 @@ function Honey() {
                     <div class="split honeyLeft" >
                         <div className="containerTextTop">
                             <img className="naturalIcon" alt="chapstick icon" src={NaturalIcon} />
+                            <Fade left>
                             <p className="detailsTop">100% Pure Organic, Raw & Unfiltered</p>
+                            </Fade>
+                            <Fade right>
                             <p className="detailsTop">From our hive, to your home.</p>
+                            </Fade>
                         </div>
                         <div class="gallery">
                             <div class="clipped-border">
@@ -52,7 +47,7 @@ function Honey() {
                         </div>
                     </div>
                     <div class="split honeyRight">
-                        <div class="entered">
+                        <div class="centered">
                             <img className="bigIcon" alt="chapstick icon" src={HoneyIcon} />
                             <Fade top big>
                                 <h2 className="honeyText">Honey</h2>

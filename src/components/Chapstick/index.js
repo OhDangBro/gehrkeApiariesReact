@@ -1,6 +1,5 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-import Bounce from 'react-reveal/Bounce';
 import ChapstickOne from "../../assets/images/ChapstickImages/Chapstick1.jpg"
 import ChapstickTwo from "../../assets/images/ChapstickImages/Chapstick2.jpg"
 import ChapstickThree from "../../assets/images/ChapstickImages/Chapstick3.jpg"
@@ -23,8 +22,12 @@ function Chapstick() {
           <div class="split chapstickleft" >
           <div className="containerTextTop">
             <img className="naturalIcon" alt="chapstick icon" src={NaturalIcon} />
+            <Fade left>
             <p className="detailsTop">100% Pure Organic, Raw & Unfiltered</p>
+            </Fade>
+            <Fade right>
             <p className="detailsTop">From our hive, to your home.</p>
+            </Fade>
             </div>
             <div class="gallery borders">
               <div class="clipped-border">

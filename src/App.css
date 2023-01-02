@@ -233,9 +233,9 @@ img {
 
 /* <----------- HERO START ------------> */
 .hero-container {
-  padding: 250px;
-  padding-bottom: 50px;
-
+  display: flex-wrap;
+  align-items: flex-end;
+  height: 100%;
 }
 
 .hero-image {
@@ -282,7 +282,8 @@ img {
   font-size: 2.5rem;
   overflow: hidden !important;
   font-family: moonFont;
-  margin: 1rem;
+  margin: -1rem;
+  padding-left: 75px;
 }
 
 .heroSmallText {
@@ -292,7 +293,7 @@ img {
   font-size: 1.5rem;
   overflow: hidden !important;
   font-family: muliFont;
-
+  padding-left: 12%;
 }
 
 /* <----------- HERO END ------------> */
@@ -308,7 +309,7 @@ img {
 .split {
   height: 100%;
   width: 50%;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
   top: 0;
   overflow-x: hidden;
@@ -318,13 +319,9 @@ img {
 .bigIcon {
   height: 150px;
   width: 150px;
-  padding-left: 25%;
-  padding-top: 5%;
 }
 
-.naturalIcon {
-  padding-right: 35px;
-}
+
 
 .gallery {
   position: relative;
@@ -340,12 +337,12 @@ img {
 }
 
 .detailsP {
-  color: #efeaca;
+  color: white;
   position: relative;
   font-size: 1.75rem;
   overflow: hidden !important;
   font-family: muliFont;
-  width: 50rem;
+  /* width: 50rem; */
 }
 
 .detailsTop {
@@ -355,15 +352,19 @@ img {
   overflow: hidden !important;
   font-family: muliFont;
   width: 45rem;
+  text-align: center;
 }
 
 .containerTextTop {
-  padding-left: 20rem;
-  position: relative;
-  top: 5rem;
-  right: 9rem;
-  text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
   color: #eda342;
+  padding-top: 5%;
+}
+
+.naturalIcon {
+  width: 30px;
 }
 
 /* <----------- OnEveryPage End ------------> */
@@ -377,13 +378,14 @@ img {
 /* <----------- HONEY START ------------> */
 .honeySection {
   height: 100vh;
+  display: flex;
 }
 
 .honeyText {
   font-family: honeyFont;
   color: #eda342;
   font-size: 7rem;
-  padding-left: 17%
+  text-align: center;
 }
 
 .honeyLeft {
@@ -395,6 +397,16 @@ img {
 .honeyRight {
   right: 0;
   background-color: #d1622a !important;
+  
+}
+
+.centered{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0% 10%;
 }
 
 
@@ -437,6 +449,8 @@ img {
   font-family: moonFont;
   color: #efeacb;
   font-size: 4rem;
+  padding-left: 17%;
+  
 }
 
 
@@ -465,3 +479,101 @@ img {
 
 
 /* <----------- BEES END ------------> */
+
+
+
+/* <--------------------- MEDIA QUERIES START --------------------> */
+@media screen and (max-width: 479px) {
+  .hero-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 80%;
+    padding-right: 15%;
+}
+
+.heroGerkeApiaries {
+  font-size: 6vw;
+ 
+}
+
+.heroSmallText {
+  font-size: 2vw;
+ 
+}
+
+.heroHoneyChapstick {
+  font-size: 5vw;
+
+}
+
+.honeySection {
+  flex-direction: column;
+  height: auto;
+}
+
+.split {
+  height: initial;
+  width: 100%;
+}
+
+.containerTextTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.naturalIcon {
+  width: 30px;
+}
+
+.detailsTop {
+  color: #efeaca;
+  position: relative;
+  font-size: 1.75rem;
+  overflow: hidden !important;
+  font-family: muliFont;
+  width: 60vw;
+  text-align: center;
+}
+
+.shadow {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  width: 80%;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+  transform: translateX(-50%);
+}
+
+
+.bigIcon {
+  height: 100px;
+  width: 100px;
+}
+
+.honeyText {
+
+  font-size: 15vw;
+}
+
+.detailsP {
+  color: white;
+  font-size: 1.25rem;
+  
+}
+
+.gallery img {
+  width: 125px;
+  height: 125px;
+}
+
+}
+  
+
+
+
+/* <--------------------- MEDIA QUERIES END --------------------> */
