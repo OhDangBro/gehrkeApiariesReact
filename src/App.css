@@ -323,21 +323,13 @@ img {
 
 
 
-.chapstickLeft {
-  width: 640px; /* Can be in percentage also. */
-  height: 100%;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
-}
-
 .gallery {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
   position: relative;
-  
+  height: 450px;
+  width: 65%;
+  transform: scale(0.85);
+  /* margin-top: 5%;
+  margin-left: 15%; */
 }
 
 .gallery img {
@@ -355,7 +347,7 @@ img {
 }
 
 .detailsTop {
-  color: white;
+  color: #efeaca;
   position: relative;
   font-size: 1.5rem;
   overflow: hidden !important;
@@ -400,6 +392,8 @@ align-items: center;
 .honeyLeft {
   left: 0;
   background-color: #d1622a !important;
+  overflow-x: visible;
+  z-index: 2;
 }
 
 
@@ -417,7 +411,6 @@ align-items: center;
   height: 100%;
   padding: 0% 10%;
 }
-
 
 
 /* <----------- HONEY END ------------> */
@@ -461,8 +454,6 @@ align-items: center;
   font-size: 4rem;
   
 }
-
-
 
 
 
@@ -597,10 +588,10 @@ align-items: center;
   flex-direction: column;
 }
 
-.gallery {
+/* .gallery {
   width: 100%;
-  margin-right: 0% !important;
-}
+  margin: 0% !important;
+} */
 
 }
   
@@ -616,22 +607,12 @@ align-items: center;
     width: 100%;
   }
 
-  .chapstickLeft {
-    width: 640px; /* Can be in percentage also. */
-    height: 100%;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
-  }
-  
   .gallery {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
     position: relative;
-    
-  }
+    height: 270px;
+    /* margin: 0% !important; */
+  
+}
 
 .gallery img {
   width: 160px;
@@ -719,8 +700,8 @@ left: 392px;
 
   .gallery {
     width: 100%;
-    margin-left: 50%;
-    margin-right: 50%;
+    /* margin-left: 50%;
+    margin-right: 50%; */
 }
 
 .detailsTop {
@@ -744,27 +725,12 @@ padding-bottom: 20%;
   font-size: 4rem;
 }
 
-.chapstickLeft {
-  width: 640px; /* Can be in percentage also. */
-  height: 100%;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
-}
 
-.gallery {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  padding: 10px;
-  position: relative;
-  
-}
 
 
 }
 
-@media screen and (min-width: 999px) and (max-width: 2200px) {
+@media screen and (max-width: 1025px) and (max-width: 2200px) {
   .clipped-border {
     clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
     padding: 5px;
@@ -839,9 +805,9 @@ padding-bottom: 20%;
   padding: 10%;
 }
 
-.gallery{
+.gallery {
   width: 100%;
-  margin-right: 15% !important;
+  /* margin-right: 15% !important; */
 }
 
 .containerGallery{
@@ -853,13 +819,199 @@ align-items: center;
 
 
 
-
-@media screen and (min-width: 1000px) and (max-width: 1550px) {
-
+@media screen and (max-width: 2600px) {
+  .chapstickLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.9) translateX(-49%);
+    position: absolute;
+    left: 43%;
+    width: 647px;
+    /* width: 400px; */
+  }
 
 }
 
+@media screen and (max-width: 2200px) {
+  .chapstickLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.8) translateX(-49%);
+    position: absolute;
+    left: 37%;
+    width: 647px;
+    /* width: 400px; */
+  }
+
+}
+
+@media screen and (max-width: 1880px) {
+  .chapstickLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.8) translateX(-49%);
+    position: absolute;
+    left: 37%;
+    width: 647px;
+    /* width: 400px; */
+  }
+
+}
+
+@media screen and (max-width: 1680px) {
+  .chapstickLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.7) translateX(-49%);
+    position: absolute;
+    left: 30%;
+    width: 647px;
+    /* width: 400px; */
+  }
+
+}
+
+@media screen and (max-width: 1180px) {
+  .gallery {
+    transform: scale(0.65);
+    left: -15%;
+    width: 547px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .honeyLeft {
+    position: relative;
+    height: 850px;
+  }
+  .gallery {
+    transform: scale(1) translateX(-49%);
+    position: absolute;
+    left: 44%;
+    width: 547px;
+    /* width: 400px; */
+  }
+}
 
 
+@media screen and (max-width: 525px) {
+  .gallery {
+    transform: scale(0.7) translateX(-73%);
+  }
+}
 
+@media screen and (max-width: 479px) {
+  .gallery {
+    transform: scale(0.7) translateX(-73%);
+  }
+  .shadow {
+    top: 350px;
+    left: 333px;
+    width: 43%;
+}
+}
+
+
+@media screen and (max-width: 2600px) {
+  .honeyLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.9) translateX(-49%);
+    position: absolute;
+    left: 43%;
+    width: 647px;
+    /* width: 400px; */
+  }
+
+}
+
+@media screen and (max-width: 2200px) {
+  .honeyLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.8) translateX(-49%);
+    position: absolute;
+    left: 37%;
+    width: 647px;
+    /* width: 400px; */
+  }
+
+}
+
+@media screen and (max-width: 1880px) {
+  .honeyLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.8) translateX(-49%);
+    position: absolute;
+    left: 37%;
+    width: 647px;
+    /* width: 400px; */
+  }
+
+}
+
+@media screen and (max-width: 1680px) {
+  .honeyLeft {
+    position: relative;
+    height: auto;
+  }
+  .gallery {
+    transform: scale(.7) translateX(-49%);
+    position: absolute;
+    left: 30%;
+    width: 647px;
+    /* width: 400px; */
+  }
+
+}
+
+@media screen and (max-width: 1180px) {
+  .gallery {
+    transform: scale(0.65);
+    left: -15%;
+    width: 547px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .honeyLeft {
+    position: relative;
+    height: 850px;
+  }
+  .gallery {
+    transform: scale(1) translateX(-49%);
+    position: absolute;
+    left: 44%;
+    width: 547px;
+    /* width: 400px; */
+  }
+}
+
+
+@media screen and (max-width: 525px) {
+  .gallery {
+    transform: scale(0.7) translateX(-73%);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .gallery {
+    transform: scale(0.7) translateX(-73%);
+  }
+}
 /* <--------------------- MEDIA QUERIES END --------------------> */
