@@ -32,19 +32,19 @@ function Chapstick() {
                         <div className="galleryContainer">
                         <div class="gallery">
                             <div class="clipped-border">
-                                <img src={ChapstickOne} id="clipped" />
+                                <img src={ChapstickOne} alt="Chapstick" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={ChapstickTwo} id="clipped" />
+                                <img src={ChapstickTwo} alt="Chapstick" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={ChapstickThree} id="clipped" />
+                                <img src={ChapstickThree} alt="Chapstick" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={ChapstickFour} id="clipped" />
+                                <img src={ChapstickFour} alt="Chapstick" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={ChapstickFive} id="clipped" />
+                                <img src={ChapstickFive} alt="Chapstick" id="clipped" />
                             </div>
                             <div class="shadow"></div>
                             {/* <button class="button-74" role="button"> 🍯 </button> */}

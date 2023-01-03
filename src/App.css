@@ -323,12 +323,21 @@ img {
 
 
 
-.gallery {
+.chapstickLeft {
+  width: 640px; /* Can be in percentage also. */
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
   position: relative;
-  height: 450px;
-  width: 65%;
-  margin-top: 5%;
-  margin-left: 15%;
+}
+
+.gallery {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  
 }
 
 .gallery img {
@@ -346,7 +355,7 @@ img {
 }
 
 .detailsTop {
-  color: #efeaca;
+  color: white;
   position: relative;
   font-size: 1.5rem;
   overflow: hidden !important;
@@ -410,6 +419,7 @@ align-items: center;
 }
 
 
+
 /* <----------- HONEY END ------------> */
 
 
@@ -451,6 +461,8 @@ align-items: center;
   font-size: 4rem;
   
 }
+
+
 
 
 
@@ -587,7 +599,7 @@ align-items: center;
 
 .gallery {
   width: 100%;
-  margin: 0% !important;
+  margin-right: 0% !important;
 }
 
 }
@@ -604,12 +616,22 @@ align-items: center;
     width: 100%;
   }
 
-  .gallery {
+  .chapstickLeft {
+    width: 640px; /* Can be in percentage also. */
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
     position: relative;
-    height: 270px;
-    margin: 0% !important;
+  }
   
-}
+  .gallery {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    
+  }
 
 .gallery img {
   width: 160px;
@@ -722,12 +744,27 @@ padding-bottom: 20%;
   font-size: 4rem;
 }
 
+.chapstickLeft {
+  width: 640px; /* Can be in percentage also. */
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
 
+.gallery {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  
+}
 
 
 }
 
-@media screen and (max-width: 1025px) and (max-width: 2200px) {
+@media screen and (min-width: 999px) and (max-width: 2200px) {
   .clipped-border {
     clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
     padding: 5px;
@@ -813,6 +850,15 @@ flex-direction: column;
 align-items: center;
 }
 }
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1550px) {
+
+
+}
+
 
 
 

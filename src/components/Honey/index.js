@@ -26,27 +26,27 @@ function Honey() {
                             <p className="detailsTop">From our hive, to your home.</p>
                             </Fade>
                         </div>
-                        
+                        <div className="containerGallery">
                         <div class="gallery">
                             <div class="clipped-border">
-                                <img src={fourOzHoney} id="clipped" />
+                                <img src={fourOzHoney} alt="four oz honey" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={HoneyFiltering} id="clipped" />
+                                <img src={HoneyFiltering} alt="Honey Filtering" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={oneOzHoney} id="clipped" />
+                                <img src={oneOzHoney} alt="One ounce honey" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={TwoBigOneSmall} id="clipped" />
+                                <img src={TwoBigOneSmall} alt="Bottles of honey" id="clipped" />
                             </div>
                             <div class="clipped-border">
-                                <img src={TwoSmallOneBig} id="clipped" />
+                                <img src={TwoSmallOneBig} alt="Bottles of honey on table" id="clipped" />
                             </div>
                             <div class="shadow"></div>
                             {/* <button class="button-74" role="button"> 🍯 </button> */}
                         </div>
-                        
+                        </div>
                     </div>
                     <div class="split honeyRight">
                         <div class="centered">
