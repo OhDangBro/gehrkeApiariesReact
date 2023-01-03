@@ -44,7 +44,6 @@ function Honey() {
                                 <img src={TwoSmallOneBig} alt="Bottles of honey on table" id="clipped" />
                             </div>
                             <div class="shadow"></div>
-                            {/* <button class="button-74" role="button"> 🍯 </button> */}
                         </div>
                         </div>
                     </div>

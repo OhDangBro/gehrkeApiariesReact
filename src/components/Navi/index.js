@@ -41,7 +41,9 @@ function Navi({ handleClick }) {
         <BottomNavigationAction href="#Chapstick" label="Chapstick" icon={<SpaTwoToneIcon />} />
         </span>
         <BottomNavigationAction href="#Bees" label="Bees" icon={<EmojiNatureTwoToneIcon />} />
+        <span onClick={() => handleClick("Contact")} >
         <BottomNavigationAction href="#Contact" label="Contact" icon={<ContactPageIcon />} />
+        </span>
       </BottomNavigation>
     </Box>
   </div>
