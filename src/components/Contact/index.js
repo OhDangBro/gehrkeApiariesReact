@@ -1,7 +1,6 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import { useState } from 'react';
-import Flip from 'react-reveal/Flip';
 
 export const Contact = () => {
   const [input_username, setUserName] = useState('');
@@ -14,8 +13,6 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    
 
     emailjs.sendForm('service_miclkz2', 'template_3vy91zb', form.current, 'Fn_zxEFg1IdXStiDB')
     .then((result) => {

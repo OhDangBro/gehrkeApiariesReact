@@ -19,6 +19,15 @@
   
 }
 
+.css-1gh6k7f-MuiBottomNavigationAction-label {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 0.75rem;
+  opacity: 1 !important;
+  -webkit-transition: font-size 0.2s,opacity 0.2s;
+  transition: font-size 0.2s,opacity 0.2s;
+  transition-delay: 0s;
+}
+
 .css-1t2cg5g-MuiBottomNavigation-root {
   background-color: burlywood !important;
 }
@@ -347,7 +356,7 @@ img {
 }
 
 .detailsTop {
-  color: #efeaca;
+  color: white;
   position: relative;
   font-size: 1.5rem;
   overflow: hidden !important;
