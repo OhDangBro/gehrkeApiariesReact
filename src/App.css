@@ -1141,6 +1141,7 @@ textarea {
 @media screen and (max-width: 479px) {
   .gallery {
     transform: scale(0.7) translateX(-73%);
+    left: 25% !important;
   }
 
   .shadow {
