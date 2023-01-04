@@ -13,6 +13,7 @@ function Navi({ handleClick }) {
     <div className="wholeNav">
       <Box className="navBar" sx={{ width: 500 }}>
         <BottomNavigation
+
           sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}
           className="bottomNav"
           showLabels
@@ -21,18 +22,10 @@ function Navi({ handleClick }) {
             setValue(newValue);
           }}
         >
-          <span onClick={() => handleClick("Home")}>
-            <BottomNavigationAction className="navLabel" href="#Home" label="Home" icon={<HomeIcon />} />
-          </span>
-          <span onClick={() => handleClick("Honey")}>
-            <BottomNavigationAction href="#Honey" label="Honey" icon={<HiveTwoToneIcon />} />
-          </span>
-          <span onClick={() => handleClick("Chapstick")}>
-            <BottomNavigationAction href="#Chapstick" label="Chapstick" icon={<SpaTwoToneIcon />} />
-          </span>
-          <span onClick={() => handleClick("Contact")} >
-            <BottomNavigationAction href="#Contact" label="Contact" icon={<ContactPageIcon />} />
-          </span>
+          <BottomNavigationAction onClick={() => handleClick("Home")} label="Home" icon={<HomeIcon />} />
+          <BottomNavigationAction onClick={() => handleClick("Honey")} label="Honey" icon={<HiveTwoToneIcon />} />
+          <BottomNavigationAction onClick={() => handleClick("Chapstick")} label="Chapstick" icon={<SpaTwoToneIcon />} />
+          <BottomNavigationAction onClick={() => handleClick("Contact")} label="Contact" icon={<ContactPageIcon />} />
         </BottomNavigation>
       </Box>
     </div>
