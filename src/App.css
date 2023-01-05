@@ -401,6 +401,7 @@ img {
 .chapstickRight {
   right: 0;
   background-color: #bbdbb6;
+ 
 }
 
 .chapstickText {
@@ -890,6 +891,10 @@ textarea {
 
   }
 
+  .chapstickRight {
+    height: 800px !important;
+  }
+
 
   .clipped-border {
     clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
@@ -1018,6 +1023,23 @@ textarea {
     height: 100vh;
   }
 }
+/* <--------- MEDIA query end -----------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
