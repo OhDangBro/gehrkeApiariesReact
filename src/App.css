@@ -1085,6 +1085,12 @@ textarea {
     left: 43%;
     width: 647px;
   }
+  .clipped-border:before {
+    opacity: .1;
+    width: 340px;
+    height: 52px;
+ 
+}
 
 }
 
@@ -1101,6 +1107,13 @@ textarea {
     width: 647px;
   }
 
+  .clipped-border:before {
+    opacity: .1;
+    width: 340px;
+    height: 52px;
+ 
+}
+
 }
 
 @media screen and (max-width: 1880px) {
@@ -1115,6 +1128,12 @@ textarea {
     left: 37%;
     width: 647px;
   }
+  .clipped-border:before {
+    opacity: .1;
+    width: 340px;
+    height: 52px;
+ 
+}
 
 }
 
@@ -1130,6 +1149,12 @@ textarea {
     left: 33% !important;
     width: 647px;
   }
+  .clipped-border:before {
+    opacity: .1;
+    width: 340px;
+    height: 52px;
+ 
+}
 
 }
 
@@ -1139,6 +1164,12 @@ textarea {
     left: -15%;
     width: 547px;
   }
+  .clipped-border:before {
+    opacity: .1;
+    width: 340px;
+    height: 52px;
+ 
+}
 }
 
 @media screen and (max-width: 1024px) {
@@ -1150,7 +1181,6 @@ textarea {
   .gallery {
     transform: scale(1) translateX(-49%);
     position: absolute;
-
     width: 547px;
   }
 
@@ -1159,6 +1189,12 @@ textarea {
     left: 250px;
     width: 43%;
   }
+  .clipped-border:before {
+    opacity: .1;
+    width: 340px;
+    height: 52px;
+ 
+}
 }
 
 @media screen and (max-width: 825px) {
