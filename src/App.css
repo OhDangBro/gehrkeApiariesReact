@@ -38,6 +38,7 @@ img {
   transition: transform 0.2s;
   position: absolute;
   cursor: pointer;
+
 }
 
 
@@ -742,6 +743,7 @@ textarea {
     transition: transform 0.2s;
     position: absolute;
     cursor: pointer;
+    overflow-x: hidden;
   }
 
   .clipped-border:before {
@@ -1163,6 +1165,10 @@ textarea {
     left: 203px;
     width: 43%;
   }
+
+  .clipped-border {
+    overflow-x: hidden;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1175,6 +1181,10 @@ textarea {
     top: 330px;
     left: 200px;
     width: 43%;
+  }
+
+  .clipped-border {
+    overflow-x: hidden;
   }
 }
 
