@@ -953,6 +953,12 @@ textarea {
     font-size: 1.5rem;
   }
 
+  .detailsP {
+    color: white;
+    font-size: 1.25rem;
+    padding-bottom: 15%;
+  }
+
   .honeyText {
     font-size: 4rem;
   }
