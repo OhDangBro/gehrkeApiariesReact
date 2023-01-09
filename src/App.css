@@ -391,17 +391,16 @@ img {
 
 
 /* <--------------------- CHAPSTICK START -----------------------> */
-/* Control the left side */
-.chapstickLeft {
+.honeyLeft {
   left: 0;
-  background-color: #bbdbb6;
+  background-color: #bbdbb6 !important;
+  overflow-x: visible;
+  z-index: 2;
 }
 
-/* Control the right side */
-.chapstickRight {
+.honeyRight {
   right: 0;
-  background-color: #bbdbb6;
- 
+  background-color: #bbdbb6 !important;
 }
 
 .chapstickText {
