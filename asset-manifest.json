@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.c06ab933.css",
-    "main.js": "/static/js/main.73b5ee74.js",
+    "main.css": "/static/css/main.b5efa1e6.css",
+    "main.js": "/static/js/main.bd04bf9b.js",
     "static/js/787.9d0ffed5.chunk.js": "/static/js/787.9d0ffed5.chunk.js",
+    "static/media/Bee.mp4": "/static/media/Bee.ccdb5f4280d3fd224d9c.mp4",
     "static/media/Chapstick4.jpg": "/static/media/Chapstick4.c83badfa57bd218c3d42.jpg",
     "static/media/Chapstick3.jpg": "/static/media/Chapstick3.3a9d8b8bfc239dcbb5f7.jpg",
     "static/media/Chapstick5.jpg": "/static/media/Chapstick5.da83252963e7353a0916.jpg",
@@ -16,15 +17,16 @@
     "static/media/Chapstick2.jpg": "/static/media/Chapstick2.6f504dede6d74826e6eb.jpg",
     "static/media/PiecesNfi-LrOn.ttf": "/static/media/PiecesNfi-LrOn.3c8154dd076408f35263.ttf",
     "static/media/Muli-Light.ttf": "/static/media/Muli-Light.86acb7858164b5456936.ttf",
+    "static/media/junegull.ttf": "/static/media/junegull.0504b581bc016597343d.ttf",
     "static/media/Moon Light.otf": "/static/media/Moon Light.b64abc268d3e51c92d4c.otf",
     "static/media/lip-balm.png": "/static/media/lip-balm.8dfdaf91ddb365571611.png",
     "index.html": "/index.html",
-    "main.c06ab933.css.map": "/static/css/main.c06ab933.css.map",
-    "main.73b5ee74.js.map": "/static/js/main.73b5ee74.js.map",
+    "main.b5efa1e6.css.map": "/static/css/main.b5efa1e6.css.map",
+    "main.bd04bf9b.js.map": "/static/js/main.bd04bf9b.js.map",
     "787.9d0ffed5.chunk.js.map": "/static/js/787.9d0ffed5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c06ab933.css",
-    "static/js/main.73b5ee74.js"
+    "static/css/main.b5efa1e6.css",
+    "static/js/main.bd04bf9b.js"
   ]
 }
