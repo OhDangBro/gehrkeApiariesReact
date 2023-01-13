@@ -139,6 +139,11 @@ img {
   src: url("../src/assets/fonts/MoonTypeface/Moon\ Light.otf")
 }
 
+@font-face {
+  font-family: heroFont;
+  src: url("../src/assets/fonts/junegull/junegull.ttf")
+}
+
 /* <--- FONT END ----> */
 
 
@@ -155,70 +160,39 @@ img {
 
 
 /* <---------------------------- HERO START -------------------------> */
-.hero-container {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  height: 100vh;
-  padding-bottom: 20%;
-  padding-right: 10% !important;
-}
 
-.hero-image {
+.heroContainer {
   width: 100%;
   height: 100vh;
   position: relative;
-  overflow: hidden;
 }
 
-.hero-image:after,
-.hero-image:before {
-  content: "";
+.heroContainer video {
+  width: 100%;
+  height: 100%;
+}
+
+.text-box{
   position: absolute;
   top: 0;
-  right: 0;
   left: 0;
-  bottom: 0;
-  background: center/cover no-repeat;
-  background-image:
-    linear-gradient(rgba(39, 42, 59, 0.6) 100%, transparent 0),
-    linear-gradient(303deg, rgba(255, 255, 255, 9.7) 50%, transparent 0),
-    url('../src/assets/images/HeroImage.svg');
-  overflow: hidden;
+  background: rgb(4, 4, 4);
+  /* height: 100%; */
+  width: 100%;
+  color: #fff;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 200px;
+  mix-blend-mode: multiply;
+  font-family: heroFont;
 }
 
-.heroGerkeApiaries {
-  z-index: 1;
-  color: white;
-  position: relative;
-  font-size: 4rem;
-  overflow-y: hidden !important;
-  font-family: moonFont;
-  margin: -1rem;
-
-
+.heroBottom {
+  margin-top: -400px;
 }
 
-.heroHoneyChapstick {
-  z-index: 1;
-  color: white;
-  position: relative;
-  font-size: 2.5rem;
-  overflow: hidden !important;
-  font-family: moonFont;
-  margin: -1rem;
-  padding-left: 75px;
-}
-
-.heroSmallText {
-  z-index: 1;
-  color: white;
-  position: relative;
-  font-size: 1.5rem;
-  overflow: hidden !important;
-  font-family: muliFont;
-  padding-left: 12%;
-}
 
 /* <------------------------ HERO END -----------------------> */
 
