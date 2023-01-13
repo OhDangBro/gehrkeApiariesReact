@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5efa1e6.css",
+    "main.css": "/static/css/main.39955b24.css",
     "main.js": "/static/js/main.bd04bf9b.js",
     "static/js/787.9d0ffed5.chunk.js": "/static/js/787.9d0ffed5.chunk.js",
     "static/media/Bee.mp4": "/static/media/Bee.ccdb5f4280d3fd224d9c.mp4",
@@ -21,12 +21,12 @@
     "static/media/Moon Light.otf": "/static/media/Moon Light.b64abc268d3e51c92d4c.otf",
     "static/media/lip-balm.png": "/static/media/lip-balm.8dfdaf91ddb365571611.png",
     "index.html": "/index.html",
-    "main.b5efa1e6.css.map": "/static/css/main.b5efa1e6.css.map",
+    "main.39955b24.css.map": "/static/css/main.39955b24.css.map",
     "main.bd04bf9b.js.map": "/static/js/main.bd04bf9b.js.map",
     "787.9d0ffed5.chunk.js.map": "/static/js/787.9d0ffed5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5efa1e6.css",
+    "static/css/main.39955b24.css",
     "static/js/main.bd04bf9b.js"
   ]
 }
