@@ -510,31 +510,37 @@ textarea {
 @media screen and (max-width: 479px) {
  
   
-  .hero-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    padding-bottom: 70%;
-    padding-right: 13%;
-    height: 70vh;
-    }
-
-
-
-
-  .heroGerkeApiaries {
-    font-size: 6vw;
+  .heroContainer {
+    position: relative;
+    
+  }
+  .heroContainer video {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+ 
+  
+  .text-box{
+    position: absolute;
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px !important;
+  }
+  
+  .heroBottom {
+    position: relative;
+    margin-top: -30px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+  
   }
 
-  .heroSmallText {
-    font-size: 2vw;
-    padding: 4%;
-  }
 
-  .heroHoneyChapstick {
-    font-size: 5vw;
-    padding-bottom: 40%;
-  }
 
   .honeySection {
     flex-direction: column;
@@ -637,32 +643,38 @@ textarea {
 
 @media screen and (max-width: 769px) {
 
-  .hero-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    padding-bottom: 20%;
-    padding-right: 5%;
+  .heroContainer {
+    position: relative;
+    
+  }
+  .heroContainer video {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+ 
+  
+  .text-box{
+    position: absolute;
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px !important;
+  }
+  
+  .heroBottom {
+    position: relative;
+    margin-top: -30px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+  
   }
 
 
 
-  .heroGerkeApiaries {
-    font-size: 5vw;
-    padding-right: 7%;
-  }
-
-  .heroSmallText {
-    font-size: 1.75vw;
-    padding: 4%;
-    padding-right: 10%;
-  }
-
-  .heroHoneyChapstick {
-    font-size: 4vw;
-    padding-right: 7%;
-    padding-bottom: 15%;
-  }
 
   .honeySection {
     flex-direction: column;
@@ -766,32 +778,34 @@ textarea {
 
 @media screen and (max-width: 1024px) {
 
-  .hero-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    padding-bottom: 20%;
-    padding-right: 5%;
+  .heroContainer {
+    position: relative;
+    
   }
-
-
-
-  .heroGerkeApiaries {
-    font-size: 5vw;
-    padding-right: 7%;
+  .heroContainer video {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+ 
+  
+  .text-box{
+    position: absolute;
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px !important;
   }
-
-  .heroSmallText {
-    font-size: 1.75vw;
-    padding: 4%;
-    padding-right: 10%;
-  }
-
-  .heroHoneyChapstick {
-    font-size: 4vw;
-    padding-right: 7%;
-    padding-bottom: 15%
-
+  
+  .heroBottom {
+    position: relative;
+    margin-top: -150px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+  
   }
 
 
@@ -837,32 +851,36 @@ textarea {
 
 @media screen and (min-width: 1025px) and (max-width: 1300px) {
 
-  .hero-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    padding-bottom: 20%;
-    padding-right: 5%;
+  .heroContainer {
+    position: relative;
+    
   }
-
-
-
-  .heroGerkeApiaries {
-    font-size: 4vw;
-    padding-right: 7%;
+  .heroContainer video {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+ 
+  
+  .text-box{
+    position: absolute;
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px !important;
   }
-
-  .heroSmallText {
-    font-size: 1.75vw;
-    padding: 4%;
-    padding-right: 10%;
+  
+  .heroBottom {
+    position: relative;
+    margin-top: -170px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+  
   }
-
-  .heroHoneyChapstick {
-    font-size: 3vw;
-    padding-right: 10%;
-
-  }
+  
 
   .chapstickRight {
     height: 800px !important;
@@ -967,25 +985,34 @@ textarea {
 
 @media screen and (min-width: 1300px) {
 
-  .hero-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    padding-bottom: 20%;
-    padding-right: 5%;
+  .heroContainer {
+    position: relative;
+    
   }
-
-
-
-  .heroGerkeApiaries {
-    font-size: 3vw;
-    padding-right: 7%;
+  .heroContainer video {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+ 
+  
+  .text-box{
+    position: absolute;
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 175px !important;
   }
-
-  .heroSmallText {
-    font-size: 1.25vw;
-    padding: 4%;
-    padding-right: 10%;
+  
+  .heroBottom {
+    position: relative;
+    margin-top: -250px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+  
   }
 
   .heroHoneyChapstick {
