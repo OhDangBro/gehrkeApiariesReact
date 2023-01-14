@@ -1,12 +1,12 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
 import fourOzHoney from '../../assets/images/HoneyImages/4ozHoney.jpeg'
 import HoneyFiltering from '../../assets/images/HoneyImages/HoneyFiltering.jpg'
 import oneOzHoney from '../../assets/images/HoneyImages/oneOzHoney.jpg'
 import TwoBigOneSmall from '../../assets/images/HoneyImages/TwoBigOneSmall.jpg'
 import TwoSmallOneBig from '../../assets/images/HoneyImages/TwoSmallOneBig.jpg'
-import HoneyIcon from '../../assets/images/HoneyImages/honey.png'
-import NaturalIcon from '../../assets/images/growth.png'
+import Zoom from 'react-reveal/Zoom';
+
+
 
 
 
@@ -14,22 +14,40 @@ import NaturalIcon from '../../assets/images/growth.png'
 function Honey() {
     return (
         <>
+        
             <section id="Honey">
-                <div className="honeySection">
-                    <div class="split honeyLeft" >
-                        <div className="containerTextTop">
-                            <img className="naturalIcon" alt="chapstick icon" src={NaturalIcon} />
-                            <Fade left>
-                            <p className="detailsTop">100% Pure Organic, Raw & Unfiltered</p>
-                            </Fade>
-                            <Fade right>
-                            <p className="detailsTop">From our hive, to your home.</p>
-                            </Fade>
-                        </div>
-                        <div className="containerGallery">
+                <div className="section">
+                    <div class="split sectionLeft" >
+                        <Zoom>
+                       <h3 className="ourProduct"> Our Honey</h3>
+                       </Zoom>
+                       <div class="productLine"></div>
+                       <p class="productText">Unheated, unpasteurized and free from all impurities and pesticides. Honey with all the important vitamins, minerals, amino acids and enzymes, how nature intended.</p>
+                       <p class="productText">Hand Harvested & Hand Bottled</p>
+                       <p class="productText">From our hive, to your home.</p>
+
+                       <div class="productLine ver"></div>
+                       <p class="productButton" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
+                    </div>
+                    
+                    <div class="split sectionRight">
+                   
+                    <div className="containerGallery">
                         <div class="gallery">
+                        <ul class='circles'>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
                             <div class="clipped-border">
-                                <img src={fourOzHoney} alt="four oz honey" id="clipped" />
+                                <img style={{background: "linear-gradient(#e66465, #9198e5);" }} src={fourOzHoney} alt="four oz honey" id="clipped" />
                             </div>
                             <div class="clipped-border">
                                 <img src={HoneyFiltering} alt="Honey Filtering" id="clipped" />
@@ -43,17 +61,11 @@ function Honey() {
                             <div class="clipped-border">
                                 <img src={TwoSmallOneBig} alt="Bottles of honey on table" id="clipped" />
                             </div>
+                            <div class="clipped-border">
+                                <img src={TwoSmallOneBig} alt="Bottles of honey on table" id="clipped" />
+                            </div>
                             <div class="shadow"></div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="split honeyRight">
-                        <div class="centered">
-                            <img className="bigIcon" alt="chapstick icon" src={HoneyIcon} />
-                            <Fade top big>
-                                <h2 className="honeyText">Honey</h2>
-                            </Fade>
-                            <p className="detailsP">We go into each hive and take 20% of the honey, leaving the other 80% of the honey for the bees. Honey bees make the honey as a way of storing food to eat over the cooler winter periods, when they are unable to forage. Taking only 20% of the honey leaves the bees with more than enough to last till spring. When spring comes we will harvest most of the leftover honey. Our honey is 100% Pure Organic, Raw & Unfiltered, from our hive to your home.</p>
                         </div>
                     </div>
                 </div>

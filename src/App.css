@@ -19,11 +19,22 @@
   background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
 }
 
+.shadowChap {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 12%;
+  margin-left: 32%;
+  background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+}
+
 
 
 img {
   width: var(--width);
   height: var(--height);
+  background-color: rgba(0, 0, 0, 0.56);
 }
 
 .clipped-border {
@@ -38,6 +49,7 @@ img {
   transition: transform 0.2s;
   position: absolute;
   cursor: pointer;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 
 }
 
@@ -172,7 +184,7 @@ img {
   height: 100%;
 }
 
-.text-box{
+.text-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -190,7 +202,7 @@ img {
 }
 
 .heroBottom {
-  margin-top: -400px;
+  margin-top: -300px;
 }
 
 
@@ -228,74 +240,8 @@ img {
 .navLabel {
   opacity: 1 !important;
 }
-/* <---------------------------- NAV END -------------------------> */
 
-
-
-
-
-
-
-/* <--------------------------- OnEveryPage Start ------------------------> */
-
-/* Split the screen in half */
-.split {
-  height: 100%;
-  width: 50%;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-}
-
-.bigIcon {
-  height: 150px;
-  width: 150px;
-}
-
-.gallery {
-  position: relative;
-  height: 450px;
-  width: 65%;
-  transform: scale(0.85);
-}
-
-.gallery img {
-  width: 300px;
-  height: 300px;
-}
-
-.detailsP {
-  color: white;
-  position: relative;
-  font-size: 1.75rem;
-  overflow: hidden !important;
-  font-family: muliFont;
-  padding-bottom: 10%;
-}
-
-.detailsTop {
-  color: white;
-  position: relative;
-  font-size: 1.5rem;
-  overflow: hidden !important;
-  font-family: muliFont;
-  width: 45rem;
-  text-align: center;
-}
-
-.containerTextTop {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #eda342;
-  padding-top: 5%;
-}
-
-.naturalIcon {
-  width: 50px;
-}
-
-/* <---------------------- OnEveryPage End -------------------> */
+/* <----------------------------------------- NAV END ------------------------------> */
 
 
 
@@ -311,29 +257,25 @@ img {
 
 
 
-/* <------------------------ HONEY START -------------------------> */
-.honeySection {
+
+
+/* <--------------------------------- PRODUCT PAGE START ------------------------------> */
+.section {
   height: 100vh;
   display: flex;
+  background-color: rgb(4, 4, 4);
+
 }
 
-.honeyText {
-  font-family: honeyFont;
-  color: #eda342;
-  font-size: 7rem;
-  text-align: center;
-}
-
-.honeyLeft {
-  left: 0;
-  background-color: #d1622a !important;
-  overflow-x: visible;
-  z-index: 2;
-}
-
-.honeyRight {
-  right: 0;
-  background-color: #d1622a !important;
+.ourProduct {
+  margin-bottom: 30px;
+  font-family: Oswald, sans-serif;
+  font-size: 95px !important;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: left;
+  color: #fff;
+  font-family: moonFont;
 }
 
 .centered {
@@ -344,46 +286,130 @@ img {
   height: 100%;
   padding: 0% 10%;
 }
-/* <--------------------- HONEY END --------------------> */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <--------------------- CHAPSTICK START -----------------------> */
-.honeyLeft {
-  left: 0;
-  background-color: #bbdbb6 !important;
-  overflow-x: visible;
-  z-index: 2;
+.sectionLeft {
+  position: relative;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 7%;
 }
 
-.honeyRight {
+.sectionRight {
   right: 0;
-  background-color: #bbdbb6 !important;
 }
 
-.chapstickText {
-  font-family: moonFont;
-  color: #efeacb;
-  font-size: 4rem;
-
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 400;
 }
-/* <------------------ CHAPSTICK END --------------------> */
+
+
+.productLine {
+  width: 85px;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffcd4c;
+}
+
+.productText {
+  width: 70%;
+  max-width: 1100px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: Oswald, sans-serif;
+  color: #f5f5f5;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.productLine.ver {
+  width: 1px;
+  height: 150px;
+  margin-left: 15px;
+  background-color: #ffcd4c;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.productButton {
+  width: 134px;
+  margin: 0 10px 0 0;
+  padding: 6px 5px;
+  background-color: #ffcd4c;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.gallery {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 250px;
+  margin-top: 240px;
+  height: 450px;
+  width: 65%;
+  transform: scale(1.1) !important;
+}
+
+.gallery img {
+  width: 249px;
+  height: 277px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  filter: grayscale(40%);
+}
+
+.gallery img:hover {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  filter: brightness(100%);
+}
+
+.chapstickImage {
+  width: auto !important;
+  height: 350px !important;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+
+/* <------------------------------------- PRODUCT PAGE END ------------------------------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -494,9 +520,6 @@ textarea {
   }
 }
 
-
-
-
 /* <------------------- CONTACT END ------------------------> */
 
 
@@ -508,19 +531,19 @@ textarea {
 
 /* <--------------------- MEDIA QUERIES START --------------------> */
 @media screen and (max-width: 479px) {
- 
-  
+
+
   .heroContainer {
     position: relative;
-    
+
   }
+
   .heroContainer video {
     width: 100vw !important;
     height: 100vh !important;
-}
- 
-  
-  .text-box{
+  }
+
+  .text-box {
     position: absolute;
     height: 100vh !important;
     width: 100vw !important;
@@ -530,19 +553,21 @@ textarea {
     justify-content: center;
     font-size: 45px !important;
   }
-  
+
   .heroBottom {
     position: relative;
     margin-top: -30px;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center;
-  
   }
 
+  h1 {
+    font-size: 40px !important;
+    padding-bottom: 0% !important;
+  }
 
-
-  .honeySection {
+  .section {
     flex-direction: column;
     height: auto;
   }
@@ -555,46 +580,6 @@ textarea {
   .galleryContainer {
     align-items: center;
   }
-
-  .containerTextTop {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .naturalIcon {
-    width: 50px;
-  }
-
-  .detailsTop {
-    color: white;
-    position: relative;
-    font-size: 1.4rem !important;
-    overflow: hidden !important;
-    font-family: muliFont;
-    width: 60vw;
-    text-align: center;
-  }
-  
-  .bigIcon {
-    height: 100px;
-    width: 100px;
-  }
-
-  .honeyText {
-    
-    font-size: 3rem;
-  }
-
-  .chapstickText {
-    font-size: 3rem;
-}
-
-  .detailsP {
-    color: white;
-    font-size: 1.25rem;
-  }
-
 
   .gallery img {
     width: 125px;
@@ -630,30 +615,37 @@ textarea {
     margin-top: 20px;
   }
 
-  input{
+  input {
     width: 40vw;
   }
 
-  textarea{
+  textarea {
     width: 50vw;
   }
-
-
 }
 
 @media screen and (max-width: 769px) {
 
   .heroContainer {
     position: relative;
-    
+
   }
+
+  .heroBottom{
+    padding: 5%;
+  }
+
   .heroContainer video {
     width: 100vw !important;
     height: 100vh !important;
-}
- 
-  
-  .text-box{
+  }
+
+  h1 {
+    font-size: 60px;
+    padding-bottom: 30%;
+  }
+
+  .text-box {
     position: absolute;
     height: 100vh !important;
     width: 100vw !important;
@@ -663,20 +655,8 @@ textarea {
     justify-content: center;
     font-size: 75px !important;
   }
-  
-  .heroBottom {
-    position: relative;
-    margin-top: -30px;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center;
-  
-  }
 
-
-
-
-  .honeySection {
+  .section {
     flex-direction: column;
     height: auto;
   }
@@ -691,31 +671,6 @@ textarea {
   .gallery img {
     width: 160px;
     height: 181px;
-  }
-
-
-
-
-
-  .detailsTop {
-    color: white;
-    position: relative;
-    font-size: 1.25rem;
-  }
-
-  .detailsP {
-    font-size: 1.25rem;
-    padding-bottom: 20%;
-  }
-
-  .bigIcon {
-    height: 100px;
-    width: 100px;
-    padding-top: 5%
-  }
-
-  .honeyText {
-    font-size: 4rem;
   }
 
   .clipped-border {
@@ -744,7 +699,7 @@ textarea {
     z-index: 1;
     transform: rotate(45deg);
     transition: transform 0.5s;
-}
+  }
 
   .clipped-border:nth-child(1) {
     top: 121px;
@@ -770,7 +725,6 @@ textarea {
     top: 0;
     left: 392px;
   }
-
 }
 
 
@@ -780,15 +734,19 @@ textarea {
 
   .heroContainer {
     position: relative;
-    
+
   }
+
   .heroContainer video {
     width: 100vw !important;
     height: 100vh !important;
-}
- 
-  
-  .text-box{
+  }
+
+  .heroBottom{
+    padding: 10%;
+  }
+
+  .text-box {
     position: absolute;
     height: 100vh !important;
     width: 100vw !important;
@@ -797,21 +755,6 @@ textarea {
     align-items: center;
     justify-content: center;
     font-size: 100px !important;
-  }
-  
-  .heroBottom {
-    position: relative;
-    margin-top: -150px;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center;
-  
-  }
-
-
-  .honeySection {
-    flex-direction: column;
-    height: auto;
   }
 
   .split {
@@ -823,45 +766,48 @@ textarea {
     width: 100%;
   }
 
-  .detailsTop {
-    color: white;
+  .ourProduct{
+    font-size: 41px !important;
+  }
+
+  .productText{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .productLine {
     position: relative;
-    font-size: 1.25rem;
+    width: 30px;
+    bottom: 40px !important;
   }
 
-  .detailsP {
-    font-size: 1rem;
-    padding-bottom: 20%;
+  .productLine.ver {
+    height: 50px;
+    margin-left: 0px;
+    top: -10px;
   }
 
-  .bigIcon {
-    height: 100px;
-    width: 100px;
-    padding-top: 5%
+  .section {
+        padding-top: 40%;
   }
-
-  .honeyText {
-    font-size: 4rem;
-  }
-
-
-
-
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1300px) {
 
   .heroContainer {
     position: relative;
-    
   }
+
   .heroContainer video {
     width: 100vw !important;
     height: 100vh !important;
-}
- 
-  
-  .text-box{
+  }
+
+  .heroBottom {
+    padding: 10%;
+  }
+
+  .text-box {
     position: absolute;
     height: 100vh !important;
     width: 100vw !important;
@@ -871,21 +817,33 @@ textarea {
     justify-content: center;
     font-size: 120px !important;
   }
-  
-  .heroBottom {
+
+  .ourProduct {
+    font-size: 50px !important;
+  }
+
+  .productText {
+    font-size: 15px !important;
+    line-height: 20px;
+  }
+
+  .productLine{
+    width: 45px;
+    height: 3px;
+    background-color: #ffcd4c;
     position: relative;
-    margin-top: -170px;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center;
-  
-  }
+    bottom: 31px
+}
   
 
-  .chapstickRight {
-    height: 800px !important;
-  }
-
+.productLine.ver {
+  width: 1px;
+  height: 50px;
+  margin-top: 36px;
+  margin-left: 0px;
+  background-color: #ffcd4c;
+  transform: rotate(0);
+}
 
   .clipped-border {
     clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
@@ -936,40 +894,8 @@ textarea {
     height: 181px;
   }
 
-  .naturalIcon {
-    width: 50px;
-  }
-
-  .detailsTop {
-    font-size: 1.5rem;
-  }
-
-  .detailsP {
-    color: white;
-    font-size: 1.25rem;
-    padding-bottom: 15%;
-  }
-
-  .honeyText {
-    font-size: 4rem;
-  }
-
-  .detailsP {
-    font-size: 1rem;
-  }
-
-  .bigIcon {
-    height: 100px;
-    width: 100px;
-  }
-
-  .containerTextTop {
-    padding: 10%;
-  }
-
   .gallery {
     width: 100%;
-    /* margin-right: 15% !important; */
   }
 
   .containerGallery {
@@ -987,15 +913,15 @@ textarea {
 
   .heroContainer {
     position: relative;
-    
   }
+
   .heroContainer video {
     width: 100vw !important;
     height: 100vh !important;
-}
- 
-  
-  .text-box{
+  }
+
+
+  .text-box {
     position: absolute;
     height: 100vh !important;
     width: 100vw !important;
@@ -1005,30 +931,14 @@ textarea {
     justify-content: center;
     font-size: 175px !important;
   }
-  
-  .heroBottom {
-    position: relative;
-    margin-top: -250px;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center;
-  
-  }
 
-  .heroHoneyChapstick {
-    font-size: 2vw;
-    padding-right: 16%;
-  }
-
-  .detailsP {
-    font-size: 1.5rem;
-  }
-
-    .chapstickRight {
-    position: relative;
-    height: 100vh;
+  .ourProduct {
+    margin-bottom: 30px;
+    font-size: 65px !important;
+    line-height: 60px;
   }
 }
+
 /* <--------- MEDIA query end -----------> */
 
 
@@ -1080,7 +990,7 @@ textarea {
 /* ------ HEXAGON SHAPE SIZING FOR QUERIES-------------- */
 
 @media screen and (max-width: 2600px) {
-  .chapstickLeft {
+  .sectionLeft {
     position: relative;
     height: auto;
   }
@@ -1091,20 +1001,21 @@ textarea {
     left: 43%;
     width: 647px;
   }
+
   .clipped-border:before {
     opacity: .1;
     width: 340px;
     height: 52px;
- 
-}
-
+  }
 }
 
 @media screen and (max-width: 2200px) {
-  .chapstickLeft {
+  .sectionLeft {
     position: relative;
     height: auto;
   }
+
+
 
   .gallery {
     transform: scale(.8) translateX(-49%);
@@ -1117,75 +1028,107 @@ textarea {
     opacity: .1;
     width: 340px;
     height: 52px;
- 
-}
-
+  }
 }
 
 @media screen and (max-width: 1880px) {
-  .chapstickLeft {
+  .sectionLeft {
     position: relative;
     height: auto;
   }
 
   .gallery {
-    transform: scale(.8) translateX(-49%);
+    transform: scale(.7) translateX(-49%);
     position: absolute;
     left: 37%;
     width: 647px;
   }
+
   .clipped-border:before {
     opacity: .1;
     width: 340px;
     height: 52px;
- 
-}
-
+  }
 }
 
 @media screen and (max-width: 1680px) {
-  .chapstickLeft {
+  .sectionLeft {
     position: relative;
-   height: 800px;
+    height: 800px;
   }
 
   .gallery {
-    transform: scale(.8) translateX(-49%) !important;
+    transform: scale(.7) translateX(-49%) !important;
     position: absolute;
-    left: 33% !important;
+    margin-left: 30% !important;
+    margin-top: 10% !important;
     width: 647px;
   }
+
   .clipped-border:before {
     opacity: .1;
     width: 340px;
     height: 52px;
- 
+  }
 }
 
+
+@media screen and (max-width: 1300px) {
+  .gallery {
+    transform: scale(0.4);
+    left: 25% !important;
+    width: 547px;
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gallery {
+    transform: scale(0.2);
+    left: 25% !important;
+    width: 547px;
+    padding-top: 30%;
+  }
 }
 
 @media screen and (max-width: 1180px) {
   .gallery {
     transform: scale(0.65);
-    left: -15%;
+    left: 25% !important;
     width: 547px;
+    padding-top: 30%;
   }
+
+  .clipped-border {
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    padding: 5px;
+    background: linear-gradient(grey, lightgrey);
+    max-height: 150px;
+    max-width: 150px;
+    height: 250px;
+    width: 250px;
+    transition: transform 0.2s;
+    position: absolute;
+    cursor: pointer;
+    bottom: 495px;
+    left: 174px;
+}
+
   .clipped-border:before {
     opacity: .1;
     width: 340px;
     height: 52px;
- 
-}
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  .honeyLeft {
+  .sectionLeft {
     position: relative;
     height: 850px;
   }
 
   .gallery {
-    transform: scale(1) translateX(-49%);
+    transform: scale(.7) translateX(-49%) !important;
     position: absolute;
     width: 547px;
   }
@@ -1195,20 +1138,19 @@ textarea {
     left: 250px;
     width: 43%;
   }
+
   .clipped-border:before {
     opacity: .1;
     width: 340px;
     height: 52px;
- 
-}
+  }
 }
 
 @media screen and (max-width: 825px) {
   .gallery {
-    transform: scale(0.7) translateX(-73%);
-   
+    transform: scale(0.5) translateX(-73%);
+
   }
-  
 
   .shadow {
     top: 350px;
@@ -1254,7 +1196,7 @@ textarea {
 
 
 @media screen and (max-width: 2600px) {
-  .honeyLeft {
+  .sectionLeft {
     position: relative;
     height: auto;
   }
@@ -1269,7 +1211,7 @@ textarea {
 }
 
 @media screen and (max-width: 2200px) {
-  .honeyLeft {
+  .sectionLeft {
     position: relative;
     height: auto;
   }
@@ -1284,7 +1226,7 @@ textarea {
 }
 
 @media screen and (max-width: 1880px) {
-  .honeyLeft {
+  .sectionLeft {
     position: relative;
     height: auto;
   }
@@ -1299,7 +1241,7 @@ textarea {
 }
 
 @media screen and (max-width: 1680px) {
-  .honeyLeft {
+  .sectionLeft {
     position: relative;
     height: auto;
   }
@@ -1319,15 +1261,10 @@ textarea {
     left: -15%;
     width: 547px;
   }
-
-  .honeyText {
-    font-size: 10vh;
-    padding-top: 10%;
-  }
 }
 
 @media screen and (max-width: 1024px) {
-  .honeyLeft {
+  .sectionLeft {
     position: relative;
     height: 850px;
   }
@@ -1338,6 +1275,33 @@ textarea {
     left: 44%;
     width: 547px;
   }
+
+  .clipped-border:nth-child(3) {
+    top: 0;
+    left: 300px;
+}
+
+.clipped-border:nth-child(5) {
+  top: 0;
+  left: 447px;
+}
+
+.clipped-border {
+  bottom: 546px;
+  left: 154px;
+}
+
+.clipped-border:nth-child(4) {
+  top: 123px;
+  left: 374px;
+}
+
+.clipped-border:nth-child(2) {
+  top: 123px;
+  left: 227px;
+}
+
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -1357,12 +1321,7 @@ textarea {
     transform: scale(0.7) translateX(-73%);
   }
 
-  .honeyLeft {
-    position: relative;
-    height: 650px;
-  }
-
-  .chapstickLeft {
+  .sectionLeft {
     position: relative;
     height: 650px;
   }
@@ -1370,3 +1329,174 @@ textarea {
 }
 
 /* <--------------------- MEDIA QUERIES END --------------------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------Animated Circles START-------------------- */
+
+.circles {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(96, 183, 199, 0.1);
+  animation: animate 1s linear infinite;
+  bottom: calc(100px - 40vh);
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+  animation-duration: 25s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+  animation-duration: 30s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+  animation-duration: 25s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 20s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+  animation-duration: 25s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 90px;
+  height: 90px;
+  animation-delay: 0s;
+  animation-duration: 30s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 0s;
+  animation-duration: 35s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 0s;
+  animation-duration: 40s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 0s;
+  animation-duration: 45s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 0s;
+  animation-duration: 45s;
+  border-radius: 50%;
+  border-top-left-radius: 0 !important;
+  background: #ffcd4c;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(-60vh) rotate(360deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-120vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+/* -----------------Animated Circles END-------------------- */
