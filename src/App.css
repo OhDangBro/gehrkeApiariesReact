@@ -937,6 +937,24 @@ textarea {
     font-size: 65px !important;
     line-height: 60px;
   }
+
+  .productLine{
+    width: 45px;
+    height: 3px;
+    background-color: #ffcd4c;
+    position: relative;
+    bottom: 31px
+}
+  
+
+.productLine.ver {
+  width: 1px;
+  height: 50px;
+  margin-top: 36px;
+  margin-left: 0px;
+  background-color: #ffcd4c;
+  transform: rotate(0);
+}
 }
 
 /* <--------- MEDIA query end -----------> */
