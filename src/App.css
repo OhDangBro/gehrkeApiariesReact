@@ -600,6 +600,14 @@ textarea {
 
   }
 
+  .dot {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
   .leftContainer {
     padding-left: 10%;
     padding-bottom: 20%;
@@ -637,23 +645,46 @@ textarea {
   .ourProduct {
     font-size: 25px !important;
     line-height: 60px;
-    padding-left: 10%;
-  }
+    padding-left: 11% !important;
+    margin-bottom:-20px;
+}
 
   .ourProductChap {
     font-size: 25px !important;
-    line-height: 60px;
+    line-height: 0px;
     padding-left: 5%;
-  }
+}
 
   .productText {
     font-size: 13px;
     line-height: 1rem;
+    
   }
+
+  .productLine {
+    width: 232px;
+    height: 3px;
+    margin-bottom: 19px;
+    background-color: #ffcd4c;
+    padding-left: -1%;
+    margin-left: 0%;
+    padding-bottom: 0px;
+}
+
+  .productLineChap {
+    width: 228px;
+    height: 3px;
+    margin-bottom: 19px;
+    background-color: #ffcd4c;
+    padding-left: -1%;
+    margin-left: 0%;
+    padding-bottom: 0px;
+}
 
   .productTextChap {
     font-size: 13px;
     line-height: 1rem;
+    text-align: center;
   }
 
   .productTextSmall {
@@ -664,11 +695,13 @@ textarea {
     padding-left: 9%;
   }
 
-  .productLine {
+
+
+  .productLine.ver {
     display: none;
   }
 
-  .productLine.ver {
+  .productLineChap.ver {
     display: none;
   }
 
@@ -695,7 +728,7 @@ textarea {
   }
 
   .gallery {
-    transform: scale(.3) translateX(35%) !important;
+    transform: scale(.4) translateX(0%) !important;
     position: relative;
   }
 
@@ -776,10 +809,10 @@ textarea {
 
   .chapstickImage {
     width: auto !important;
-    height: 360px !important;
-    margin-top: -34%;
+    height: 560px !important;
+    margin-top: -75%;
     margin-left: -1%;
-  }
+}
 
   .containerChapLeft {
     padding-bottom: 20% !important;
@@ -801,6 +834,16 @@ textarea {
     padding-left: 4%;
     margin-left: -12%;
     background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+  }
+
+  input {
+    width: 40vw !important;
+    height: 3vh;
+  }
+  
+  textarea {
+    width: 50vw;
+    height: 3vh;
   }
 
 }
@@ -825,10 +868,18 @@ textarea {
 
   }
 
-  .leftContainer {
-    padding-left: 17%;
-    padding-bottom: 88%;
+  .dot {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
+
+  .leftContainer {
+    padding-left: 29%;
+    padding-bottom: 88%;
+}
 
 
   .sectionLeft {
@@ -865,19 +916,20 @@ textarea {
     font-size: 30px !important;
     line-height: 0px;
     margin-right: 15%;
+    padding-left: 5%;
   }
 
   .productText {
-    width: 55%;
+    width: 88%;
     position: relative;
     max-width: 1100px;
-    left: -20px !important;
-    font-size: 12px;
+    left: -94px !important;
+    font-size: 18px;
     line-height: 20px;
     font-weight: 100;
     text-align: center;
     margin-left: 0;
-  }
+}
 
   .productTextChap {
     width: 60%;
@@ -889,6 +941,7 @@ textarea {
     font-weight: 100;
     text-align: center;
     margin-left: 0;
+   
   }
 
 
@@ -919,7 +972,8 @@ textarea {
     padding-left: -1%;
     margin-left: 0%;
     padding-bottom: 0px;
-  }
+    padding-left: 9%;
+}
 
   .productButton {
     width: 102px;
@@ -944,7 +998,7 @@ textarea {
   }
 
   .gallery {
-    transform: scale(.5) translateX(-25%) !important;
+    transform: scale(.5) translateX(0) !important;
     position: relative;
   }
 
@@ -978,20 +1032,19 @@ textarea {
 
   .chapstickImage {
     width: auto !important;
-    height: 427px !important;
+    height: 368px !important;
 
     padding-bottom: -19%;
 
-    padding-left: 20%;
   }
 
   .heroBigText {
-    font-size: 110px !important;
+    font-size: 128px !important;
     margin: 0;
   }
 
   .heroBottom {
-    font-size: 110px !important;
+    font-size: 128px !important;
     margin: 0;
   }
 
@@ -1011,8 +1064,26 @@ textarea {
   }
 
   .circlesHoney {
-    display: none;
-  }
+    position: absolute;
+    /* bottom: 22px; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.contactFormContainer {
+  padding-bottom: 50%;
+}
+
+input {
+  width: 40vw !important;
+  height: 3vh;
+}
+
+textarea {
+  width: 50vw;
+  height: 3vh;
+}
 
 
 }
@@ -1038,6 +1109,8 @@ textarea {
     background-color: rgb(4, 4, 4);
 
   }
+
+
 
   .leftContainer {
     padding-left: 28%;
@@ -1201,13 +1274,13 @@ textarea {
     position: relative;
   }
 
-  .heroBigText {
-    font-size: 110px !important;
+ .heroBigText {
+    font-size: 202px !important;
     margin: 0;
-  }
+}
 
   .heroBottom {
-    font-size: 110px !important;
+    font-size: 170px !important;
     margin: 0;
   }
 
@@ -1231,6 +1304,14 @@ textarea {
   bottom: -400px !important;
   width: 150% !important;
 
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40%;
 }
 
 
@@ -1318,6 +1399,7 @@ textarea {
     background-color: #ffcd4c;
     transform: rotate(0);
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .leftContainer {
@@ -1420,9 +1502,28 @@ textarea {
     font-family: moonFont;
   }
 
+  .ourProductChap {
+    margin-bottom: -19px;
+    font-family: Oswald, sans-serif;
+    font-size: 45px !important;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    font-family: moonFont;
+    padding-bottom: 2%;
+  }
+
 
   .productLine {
     width: 39px;
+    height: 3px;
+
+    background-color: #ffcd4c;
+  }
+
+  .productLineChap {
+    width: 32px;
     height: 3px;
 
     background-color: #ffcd4c;
@@ -1435,7 +1536,22 @@ textarea {
     ;
   }
 
+  .productTextChap {
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
   .productLine.ver {
+    width: 2px;
+    height: 50px;
+    margin-left: 0px;
+    background-color: #ffcd4c;
+    transform: rotate(0);
+    margin-top: 8px;
+  }
+
+  .productLineChap.ver {
     width: 2px;
     height: 50px;
     margin-left: 0px;
@@ -1464,13 +1580,13 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-top: 15% !important;
-    padding-left: 15%;
+    padding-top: 20% !important;
+    padding-left: 10%;
   }
 
   .chapstickImage {
     width: auto !important;
-    height: 350px !important;
+    height: 415px !important;
     margin-top: 10%;
     margin-left: 40%;
     padding-top: 40%;
@@ -1519,6 +1635,17 @@ textarea {
     z-index: -1;
   }
 
+  .productButtonChap {
+    width: 134px;
+    margin: 0 10px 0 0;
+    padding: 6px 5px;
+    background-color: #ffcd4c;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
 
 
 
@@ -1548,15 +1675,36 @@ textarea {
     font-family: moonFont;
   }
 
+  .ourProductChap {
+    margin-bottom: -19px;
+    font-family: Oswald, sans-serif;
+    font-size: 65px !important;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    font-family: moonFont;
+  }
+
 
   .productLine {
     width: 45px;
     height: 3px;
-
     background-color: #ffcd4c;
   }
 
+  .productLineChap {
+    width: 45px;
+    height: 3px;
+    background-color: #ffcd4c;
+    margin-top: 15px;
+  }
+
   .productText {
+    font-size: 20px;
+  }
+
+  .productTextChap {
     font-size: 20px;
   }
 
@@ -1567,6 +1715,15 @@ textarea {
     background-color: #ffcd4c;
     transform: rotate(0);
   }
+
+  .productLineChap.ver {
+    width: 2px;
+    height: 47px;
+    margin-left: 0px;
+    background-color: #ffcd4c;
+    transform: rotate(0);
+    margin-bottom: 21px;
+}
 
   .gallery {
     transform: scale(.7) translateX(-5%) !important;
@@ -1596,10 +1753,10 @@ textarea {
 
   .chapstickImage {
     width: auto !important;
-    height: 350px !important;
-    padding-top: 305%;
-    padding-left: 290%;
-  }
+    height: 369px !important;
+    padding-top: 229%;
+    padding-left: 251%;
+}
 
   .heroBigText {
     font-size: 300px !important;
