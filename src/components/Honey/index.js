@@ -18,23 +18,24 @@ function Honey() {
             <section id="Honey">
                 <div className="section">
                     <div class="split sectionLeft" >
+                        <div className="leftContainer">
                         <Zoom>
-                       <h3 className="ourProduct"> Our Honey</h3>
+                       <h3 className="ourProduct"> <span className="firstLetter">O</span>ur Honey</h3>
                        </Zoom>
                        <div class="productLine"></div>
                        <p class="productText">Unheated, unpasteurized and free from all impurities and pesticides. Honey with all the important vitamins, minerals, amino acids and enzymes, how nature intended.</p>
-                       <p class="productText">Hand Harvested & Hand Bottled</p>
-                       <p class="productText">From our hive, to your home.</p>
+                       <p class="productText productTextSmall">Hand Harvested & Hand Bottled</p>
+                       <p class="productText productTextSmall productTextSmaller">From our hive, to your home.</p>
 
                        <div class="productLine ver"></div>
                        <p class="productButton" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
                     </div>
-                    
+                    </div>
                     <div class="split sectionRight">
                    
                     <div className="containerGallery">
                         <div class="gallery">
-                        <ul class='circles'>
+                        <ul class='circlesHoney'>
    <li></li>
    <li></li>
    <li></li>
