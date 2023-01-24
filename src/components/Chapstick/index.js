@@ -14,17 +14,18 @@ function Chapstick() {
             <section id="Honey">
                 <div className="section">
                     <div class="split sectionLeft" >
+                        <div className="containerChapLeft">
                         <Zoom>
-                       <h3 className="ourProduct"> Our Chapstick</h3>
+                       <h3 className="ourProductChap"> Our Chapstick</h3>
                        </Zoom>
-                       <div class="productLine"></div>
-                       <p class="productText">Three simple organic ingrediants. Beeswax, Coconut Oil & Vitamin E. Natural - No parabens, added chemicals, or alcohol. </p>
-                       <p class="productText">Beeswax contains anti-inflammatory, anti-bacterial and anti-viral properties.</p>
-                       <p class="productText">From our hive, to your home.</p>
-                       <div class="productLine ver"></div>
-                       <p class="productButton" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
+                       <div class="productLineChap"></div>
+                       <p class="productTextChap">Three simple organic ingrediants. Beeswax, Coconut Oil & Vitamin E. Natural - No parabens, added chemicals, or alcohol. </p>
+                       <p class="productTextChap">Beeswax contains anti-inflammatory, anti-bacterial and anti-viral properties.</p>
+                       <p class="productTextChap">From our hive, to your home.</p>
+                       <div class="productLineChap ver"></div>
+                       <p class="productButtonChap" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
                     </div>
-                    
+                    </div>
                     <div class="split sectionRight">
                    
                    <div>
