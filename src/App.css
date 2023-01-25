@@ -791,8 +791,8 @@ textarea {
   .onMobile {
     display: inline-block;
     width: 100vw;
-    height: 40vh;
-    padding-top: 65%;
+    height: 46vh;
+    padding-top: 50%;
 }
 
 .hex {
