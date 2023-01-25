@@ -610,8 +610,8 @@ textarea {
 
   .leftContainer {
     padding-left: 10%;
-    padding-bottom: 20%;
-  }
+    padding-bottom: 14%;
+}
 
 
   .sectionLeft {
@@ -638,9 +638,9 @@ textarea {
     height: 36vh;
     top: 0;
     overflow-x: hidden;
-    padding-top: 10%;
+    padding-top: 0%;
     flex-direction: column;
-  }
+}
 
   .ourProduct {
     font-size: 25px !important;
@@ -788,6 +788,43 @@ textarea {
     display: none;
   }
 
+  .onMobile {
+    display: inline-block;
+    width: 100vw;
+    height: 40vh;
+    padding-top: 65%;
+}
+
+.hex {
+  margin-top: 30px;
+  width: 104px;
+  height: 60px;
+  background-color: white;
+  border-color: white;
+  position: relative;
+  display: inline-block;
+}
+.hex:before {
+  content: " ";
+  width: 0; height: 0;
+  border-bottom: 30px solid;
+  border-color: inherit;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  position: absolute;
+  top: -30px;
+}
+.hex:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -30px;
+  border-top: 30px solid;
+  border-color: inherit;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+
   .contactFormContainer {
     padding-bottom: 50%;
   }
@@ -809,15 +846,16 @@ textarea {
 
   .chapstickImage {
     width: auto !important;
-    height: 560px !important;
-    margin-top: -75%;
-    margin-left: -1%;
+    height: 446px !important;
+    margin-top: -61%;
+    /* margin-left: -1%; */
+    padding-bottom: -8%;
 }
 
-  .containerChapLeft {
-    padding-bottom: 20% !important;
-    padding-left: 10%;
-  }
+.containerChapLeft {
+  padding-bottom: 10% !important;
+  padding-left: 10%;
+}
 
   .ourProduct {
     font-size: 25px !important;
@@ -831,10 +869,10 @@ textarea {
     height: 46px;
     border-radius: 50%;
     margin-top: 10%;
-    padding-left: 4%;
+    padding-left: 83%;
     margin-left: -12%;
     background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
-  }
+}
 
   input {
     width: 40vw !important;
@@ -868,13 +906,35 @@ textarea {
 
   }
 
-  .dot {
-    height: 200px;
-    width: 200px;
-    background-color: #bbb;
-    border-radius: 50%;
+  .hex {
+    margin-top: 30px;
+    width: 104px;
+    height: 60px;
+    background-color: white;
+    border-color: white;
+    position: relative;
     display: inline-block;
-  }
+}
+.hex:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+}
+.hex:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -30px;
+    border-top: 30px solid;
+    border-color: inherit;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
 
   .leftContainer {
     padding-left: 29%;
@@ -1039,18 +1099,25 @@ textarea {
   }
 
   .heroBigText {
-    font-size: 128px !important;
+    font-size: 115px !important;
     margin: 0;
   }
 
   .heroBottom {
-    font-size: 128px !important;
+    font-size: 105px !important;
     margin: 0;
   }
 
   .onDesktop {
     display: none;
   }
+
+  .onMobile {
+    display: inline-block;
+    width: 99vw;
+    height: 80vh;
+    padding-top: 35%;
+}
 
   .shadowChap {
     position: absolute;
@@ -1284,9 +1351,7 @@ textarea {
     margin: 0;
   }
 
-  .onDesktop {
-    display: none;
-  }
+ 
 
   .shadowChap {
     position: absolute;
@@ -1662,6 +1727,11 @@ textarea {
 
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
+
+  .btn {
+    padding: 0px 50px;
+    align-items: center;
+}
 
 
   .ourProduct {
