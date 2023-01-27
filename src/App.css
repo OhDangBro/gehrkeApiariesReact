@@ -11,7 +11,7 @@
 
 .shadow {
   position: absolute;
-  top: 500px;
+  top: 481px;
   left: 100px;
   width: 500px;
   height: 40px;
@@ -610,7 +610,8 @@ textarea {
 
   .leftContainer {
     padding-left: 10%;
-    padding-bottom: 35%;
+    padding-bottom: 8%;
+    transform: scale(.9);
 }
 
 
@@ -653,6 +654,7 @@ textarea {
     font-size: 25px !important;
     line-height: 0px;
     padding-left: 5%;
+    margin-bottom: 4%;
 }
 
   .productText {
@@ -682,9 +684,11 @@ textarea {
 }
 
   .productTextChap {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1rem;
     text-align: center;
+    margin-top: .5rem;
+    margin-bottom: .2;
   }
 
 
@@ -842,14 +846,13 @@ textarea {
 
   .chapstickImage {
     width: auto !important;
-    height: 446px !important;
-    margin-top: -35%;
-    /* margin-left: -1%; */
+    height: 341px !important;
+    margin-top: -32%;
     padding-bottom: -8%;
 }
 
 .containerChapLeft {
-  padding-bottom: 35% !important;
+  padding-bottom: 15% !important;
   padding-left: 10%;
 }
 
@@ -1082,8 +1085,9 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-bottom: 119% !important;
+    padding-bottom: 250% !important;
     padding-left: 15%;
+    transform: scale(.9) translateX(0) !important;
 }
 
   .chapstickImage {
@@ -1177,8 +1181,8 @@ textarea {
 
   .leftContainer {
     padding-left: 28%;
-    padding-bottom: 50%;
-  }
+    padding-bottom: 89%;
+}
 
 
   .sectionLeft {
@@ -1218,23 +1222,24 @@ textarea {
   }
 
   .productText {
-    width: 55%;
+    width: 80%;
     position: relative;
     max-width: 1100px;
-    left: -58px;
-    font-size: 12px;
+    left: -116px;
+    font-size: 20px;
     line-height: 20px;
     font-weight: 100;
     text-align: center;
     margin-left: 0;
-  }
+    padding-right: -7%;
+}
 
   .productTextChap {
-    width: 55%;
+    width: 80%;
     position: relative;
     max-width: 1100px;
-    left: -25px;
-    font-size: 12px;
+    left: -88px;
+    font-size: 20px;
     line-height: 20px;
     font-weight: 100;
     text-align: center;
@@ -1322,9 +1327,9 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-bottom: 71% !important;
-    padding-left: 29%;
-  }
+    padding-bottom: 90% !important;
+    padding-left: 25%;
+}
 
   .chapstickImage {
     width: 100%;
