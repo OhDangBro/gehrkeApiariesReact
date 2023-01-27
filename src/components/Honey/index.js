@@ -23,9 +23,9 @@ function Honey() {
                        <h3 className="ourProduct"> <span className="firstLetter">O</span>ur Honey</h3>
                        </Zoom>
                        <div class="productLine"></div>
-                       <p class="productText">Unheated, unpasteurized and free from all impurities and pesticides. Honey with all the important vitamins, minerals, amino acids and enzymes, how nature intended.</p>
-                       <p class="productText productTextSmall">Hand Harvested & Hand Bottled</p>
-                       <p class="productText productTextSmall productTextSmaller">From our hive, to your home.</p>
+                       <p class="productText">Indulge in the purest form of honey with our unheated, unpasteurized and pesticide-free honey.</p>
+                       <p class="productText productTextSmall">Hand-harvested and hand-bottled, our honey maintains all of its essential vitamins, minerals, amino acids, and enzymes, just as nature intended. </p>
+                       <p class="productText productTextSmall productTextSmaller">Enjoy the benefits of a truly natural and pure honey, straight from our hives to your home.</p>
 
                        <div class="productLine ver"></div>
                        <p class="productButton" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>

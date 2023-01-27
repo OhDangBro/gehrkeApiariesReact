@@ -19,9 +19,9 @@ function Chapstick() {
                        <h3 className="ourProductChap"> Our Chapstick</h3>
                        </Zoom>
                        <div class="productLineChap"></div>
-                       <p class="productTextChap">Three simple organic ingrediants. Beeswax, Coconut Oil & Vitamin E. Natural - No parabens, added chemicals, or alcohol. </p>
-                       <p class="productTextChap">Beeswax contains anti-inflammatory, anti-bacterial and anti-viral properties.</p>
-                       <p class="productTextChap">From our hive, to your home.</p>
+                       <p class="productTextChap">Experience the power of nature with our all-natural, organic balm made with just three simple ingredients: beeswax from our own hives, coconut oil, and vitamin E.  </p>
+                       <p class="productTextChap">Free from parabens, chemicals, and alcohol, our balm harnesses the anti-inflammatory, anti-bacterial, and anti-viral properties of beeswax to nourish and protect your skin.</p>
+                       <p class="productTextChap">From our hive to your home, enjoy the purest, most effective skincare available."</p>
                        <div class="productLineChap ver"></div>
                        <p class="productButtonChap" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
                     </div>

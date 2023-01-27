@@ -34,7 +34,7 @@
 img {
   width: var(--width);
   height: var(--height);
-  background-color: rgba(0, 0, 0, 0.56);
+
 }
 
 .clipped-border {
@@ -387,14 +387,14 @@ h3 {
 .gallery img {
   width: 249px;
   height: 277px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
   filter: grayscale(40%);
 }
 
 .gallery img:hover {
   width: 300px;
   height: 300px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
   filter: brightness(100%);
 }
 
@@ -610,7 +610,7 @@ textarea {
 
   .leftContainer {
     padding-left: 10%;
-    padding-bottom: 14%;
+    padding-bottom: 35%;
 }
 
 
@@ -687,13 +687,9 @@ textarea {
     text-align: center;
   }
 
-  .productTextSmall {
-    padding-left: 7%;
-  }
 
-  .productTextSmaller {
-    padding-left: 9%;
-  }
+   
+
 
 
 
@@ -847,13 +843,13 @@ textarea {
   .chapstickImage {
     width: auto !important;
     height: 446px !important;
-    margin-top: -61%;
+    margin-top: -35%;
     /* margin-left: -1%; */
     padding-bottom: -8%;
 }
 
 .containerChapLeft {
-  padding-bottom: 10% !important;
+  padding-bottom: 35% !important;
   padding-left: 10%;
 }
 
@@ -936,9 +932,9 @@ textarea {
     border-right: 52px solid transparent;
 }
 
-  .leftContainer {
-    padding-left: 29%;
-    padding-bottom: 88%;
+.leftContainer {
+  padding-left: 22%;
+  padding-bottom: 127%;
 }
 
 
@@ -1025,7 +1021,7 @@ textarea {
   }
 
   .productLineChap {
-    width: 236px;
+    width: 225px;
     height: 3px;
     margin-bottom: 19px;
     background-color: #ffcd4c;
@@ -1071,8 +1067,8 @@ textarea {
 
   .containerGallery {
     padding-top: 15%;
-
-  }
+    padding-right: 34%;
+}
 
   #Honey {
     overflow: hidden !important;
@@ -1086,9 +1082,9 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-bottom: 70% !important;
-    padding-left: 17%;
-  }
+    padding-bottom: 119% !important;
+    padding-left: 15%;
+}
 
   .chapstickImage {
     width: auto !important;
@@ -1119,16 +1115,16 @@ textarea {
     padding-top: 35%;
 }
 
-  .shadowChap {
-    position: absolute;
-    width: 10px;
-    height: 40px;
-    border-radius: 50%;
-    margin-top: 10%;
-    padding-left: 80%;
-    margin-left: 25%;
-    background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
-  }
+.shadowChap {
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10%;
+  padding-left: 48%;
+  margin-left: 25%;
+  background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+}
 
   .circlesHoney {
     position: absolute;
@@ -1438,11 +1434,11 @@ textarea {
   }
 
   .productTextChap {
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 0%;
     margin-bottom: 0%;
-    ;
-  }
+    width: 78% !important;
+}
 
   .productTextSmall {
     padding-left: 0% !important;
@@ -1496,9 +1492,9 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-top: 30% !important;
+    padding-top: 26% !important;
     padding-left: 5%;
-  }
+}
 
   .chapstickImage {
     width: auto !important;
@@ -1645,9 +1641,9 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-top: 20% !important;
+    padding-top: 6% !important;
     padding-left: 10%;
-  }
+}
 
   .chapstickImage {
     width: auto !important;
@@ -1803,8 +1799,8 @@ textarea {
 
   .containerGallery {
     padding-left: -25% !important;
-    padding-top: 35%;
-  }
+    padding-top: 43%;
+}
 
   .leftContainer {
     padding-top: 5%;
@@ -1824,7 +1820,7 @@ textarea {
   .chapstickImage {
     width: auto !important;
     height: 369px !important;
-    padding-top: 229%;
+    padding-top: 300%;
     padding-left: 251%;
 }
 
@@ -1929,7 +1925,7 @@ textarea {
   }
 
   .leftContainer {
-    padding-top: 5%;
+    padding-top: 0%;
   }
 
   #Honey {
@@ -1938,15 +1934,13 @@ textarea {
 
 
   .containerChapLeft {
-    padding-top: 4% !important;
+    padding-top: 2% !important;
     padding-left: 5%;
   }
 
   .chapstickImage {
     width: auto !important;
     height: 350px !important;
-    /* margin-top: 10%; */
-    /* margin-left: 40%; */
     padding-top: 305%;
     padding-left: 250%;
   }
@@ -2005,6 +1999,10 @@ textarea {
     position: absolute;
   }
 
+  .productTextChap {
+    font-size: 30px !important;
+  }
+
 
 
   .containerGallery {
@@ -2017,7 +2015,7 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-top: 8% !important;
+    padding-top: 4% !important;
   }
 
   .chapstickImage {
