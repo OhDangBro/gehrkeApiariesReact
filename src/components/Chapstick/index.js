@@ -13,24 +13,24 @@ function Chapstick() {
         
             <section id="Honey">
                 <div className="section">
-                    <div class="split sectionLeft" >
+                    <div className="split sectionLeft" >
                         <div className="containerChapLeft">
                         <Zoom>
                        <h3 className="ourProductChap"> Our Chapstick</h3>
                        </Zoom>
-                       <div class="productLineChap"></div>
-                       <p class="productTextChap">Experience the power of nature with our all-natural, organic balm made with just three simple ingredients: beeswax from our own hives, coconut oil, and vitamin E.  </p>
-                       <p class="productTextChap">Free from parabens, chemicals, and alcohol, our balm harnesses the anti-inflammatory, anti-bacterial, and anti-viral properties of beeswax to nourish and protect your skin.</p>
-                       <p class="productTextChap">From our hive to your home, enjoy the purest, most effective skincare available."</p>
-                       <div class="productLineChap ver"></div>
-                       <p class="productButtonChap" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
+                       <div className="productLineChap"></div>
+                       <p className="productTextChap">Experience the power of nature with our all-natural, organic balm made with just three simple ingredients: beeswax from our own hives, coconut oil, and vitamin E.  </p>
+                       <p className="productTextChap">Free from parabens, chemicals, and alcohol, our balm harnesses the anti-inflammatory, anti-bacterial, and anti-viral properties of beeswax to nourish and protect your skin.</p>
+                       <p className="productTextChap">From our hive to your home, enjoy the purest, most effective skincare available."</p>
+                       <div className="productLineChap ver"></div>
+                       <p className="productButtonChap" onClick={()=>{ alert("Our bee's are resting for the winter, we will have chapstick again starting May!"); }} >Shop Now</p>
                     </div>
                     </div>
-                    <div class="split sectionRight">
+                    <div className="split sectionRight">
                    
                    <div>
-                       <div class="gallery">
-                       <ul class='circles'>
+                       <div className="gallery">
+                       <ul className='circles'>
   <li></li>
   <li></li>
   <li></li>
@@ -42,8 +42,8 @@ function Chapstick() {
   <li></li>
   <li></li>
 </ul>
-<img className="chapstickImage" src={chapstickImage}/>
-                           <div class="shadowChap"></div>
+<img className="chapstickImage" src={chapstickImage} alt="chapstick container local chapstick"/>
+                           <div className="shadowChap"></div>
                        </div>
                        </div>
                    </div>

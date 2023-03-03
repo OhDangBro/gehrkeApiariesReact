@@ -1772,11 +1772,11 @@ textarea {
   }
 
   .productText {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .productTextChap {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .productLine.ver {
@@ -1804,11 +1804,11 @@ textarea {
 
   .containerGallery {
     padding-left: -25% !important;
-    padding-top: 43%;
+    padding-top: 35%;
 }
 
   .leftContainer {
-    padding-top: 5%;
+    padding-bottom: 0%;
   }
 
 
@@ -1817,8 +1817,10 @@ textarea {
   }
 
   .containerChapLeft {
-    padding-top: 4% !important;
+    padding-top: 0% !important;
     padding-left: 5%;
+    
+
   }
 
 

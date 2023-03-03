@@ -17,25 +17,25 @@ function Honey() {
         
             <section id="Honey">
                 <div className="section">
-                    <div class="split sectionLeft" >
+                    <div className="split sectionLeft" >
                         <div className="leftContainer">
                         <Zoom>
                        <h3 className="ourProduct"> <span className="firstLetter">O</span>ur Honey</h3>
                        </Zoom>
-                       <div class="productLine"></div>
-                       <p class="productText">Indulge in the purest form of honey with our unheated, unpasteurized and pesticide-free honey.</p>
-                       <p class="productText productTextSmall">Hand-harvested and hand-bottled, our honey maintains all of its essential vitamins, minerals, amino acids, and enzymes, just as nature intended. </p>
-                       <p class="productText productTextSmall productTextSmaller">Enjoy the benefits of a truly natural and pure honey, straight from our hives to your home.</p>
+                       <div className="productLine"></div>
+                       <p className="productText">Indulge in the purest form of honey with our unheated, unpasteurized and pesticide-free honey.</p>
+                       <p className="productText productTextSmall">Hand-harvested and hand-bottled, our honey maintains all of its essential vitamins, minerals, amino acids, and enzymes, just as nature intended. </p>
+                       <p className="productText productTextSmall productTextSmaller">Enjoy the benefits of a truly natural and pure honey, straight from our hives to your home.</p>
 
-                       <div class="productLine ver"></div>
-                       <p class="productButton" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
+                       <div className="productLine ver"></div>
+                       <p className="productButton" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
                     </div>
                     </div>
-                    <div class="split sectionRight">
+                    <div className="split sectionRight">
                    
                     <div className="containerGallery">
-                        <div class="gallery">
-                        <ul class='circlesHoney'>
+                        <div className="gallery">
+                        <ul className='circlesHoney'>
    <li></li>
    <li></li>
    <li></li>
@@ -47,25 +47,25 @@ function Honey() {
    <li></li>
    <li></li>
 </ul>
-                            <div class="clipped-border">
-                                <img style={{background: "linear-gradient(#e66465, #9198e5);" }} src={fourOzHoney} alt="four oz honey" id="clipped" />
+                            <div className="clipped-border">
+                                <img style={{background: "linear-gradient(#e66465, #9198e5)" }} src={fourOzHoney} alt="four oz honey" id="clipped" />
                             </div>
-                            <div class="clipped-border">
+                            <div className="clipped-border">
                                 <img src={HoneyFiltering} alt="Honey Filtering" id="clipped" />
                             </div>
-                            <div class="clipped-border">
+                            <div className="clipped-border">
                                 <img src={oneOzHoney} alt="One ounce honey" id="clipped" />
                             </div>
-                            <div class="clipped-border">
+                            <div className="clipped-border">
                                 <img src={TwoBigOneSmall} alt="Bottles of honey" id="clipped" />
                             </div>
-                            <div class="clipped-border">
+                            <div className="clipped-border">
                                 <img src={TwoSmallOneBig} alt="Bottles of honey on table" id="clipped" />
                             </div>
-                            <div class="clipped-border">
+                            <div className="clipped-border">
                                 <img src={TwoSmallOneBig} alt="Bottles of honey on table" id="clipped" />
                             </div>
-                            <div class="shadow"></div>
+                            <div className="shadow"></div>
                         </div>
                         </div>
                     </div>
