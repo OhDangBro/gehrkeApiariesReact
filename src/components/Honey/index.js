@@ -28,7 +28,7 @@ function Honey() {
                        <p className="productText productTextSmall productTextSmaller">Enjoy the benefits of a truly natural and pure honey, straight from our hives to your home.</p>
 
                        <div className="productLine ver"></div>
-                       <p className="productButton" onClick={()=>{ alert("Our bee's are resting for the winter, we will have honey again starting May!"); }} >Shop Now</p>
+                       <p className="productButton" onClick={()=>{ alert("We're all out of our spring honey. Check back in September for fall honey. Thank you! 🍯😊"); }} >Shop Now</p>
                     </div>
                     </div>
                     <div className="split sectionRight">

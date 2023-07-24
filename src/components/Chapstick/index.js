@@ -23,7 +23,7 @@ function Chapstick() {
                        <p className="productTextChap">Free from parabens, chemicals, and alcohol, our balm harnesses the anti-inflammatory, anti-bacterial, and anti-viral properties of beeswax to nourish and protect your skin.</p>
                        <p className="productTextChap">From our hive to your home, enjoy the purest, most effective skincare available."</p>
                        <div className="productLineChap ver"></div>
-                       <p className="productButtonChap" onClick={()=>{ alert("Our bee's are resting for the winter, we will have chapstick again starting May!"); }} >Shop Now</p>
+                       <p className="productButtonChap" onClick={()=>{ alert("We're currently out of chapstick. Please check back in September when we'll have more in stock."); }} >Shop Now</p>
                     </div>
                     </div>
                     <div className="split sectionRight">
