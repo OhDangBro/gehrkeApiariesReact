@@ -37,7 +37,9 @@ function Chapstick() {
               <div className="centered-elements">
                 <div className="dropdown">
                   <select value={selectedSize} onChange={handleSizeChange}>
-                    <option value="1.5oz">1.5oz</option>
+                    <option value="1 1.5oz Chapstick">(1) 1.5oz - $2.50</option>
+                    <option value="3 1.5oz Chapstick">(3) 1.5oz - $7.00</option>
+                    <option value="5 1.5oz Chapstick">(5) 1.5oz - $10.00</option>
                   </select>
                 </div>
                 <p
