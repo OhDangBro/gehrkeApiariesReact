@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.40b9622b.css",
-    "main.js": "/static/js/main.75bfb450.js",
+    "main.css": "/static/css/main.fac94a71.css",
+    "main.js": "/static/js/main.ddcd1e9b.js",
     "static/js/787.9d0ffed5.chunk.js": "/static/js/787.9d0ffed5.chunk.js",
     "static/media/Bee.mp4": "/static/media/Bee.ccdb5f4280d3fd224d9c.mp4",
     "static/media/BeeGif.gif": "/static/media/BeeGif.e0016af7a40856dd7180.gif",
     "static/media/HoneyFiltering.jpg": "/static/media/HoneyFiltering.e1cefae2956367924a80.jpg",
+    "static/media/Soap.png": "/static/media/Soap.118e732d91ac2d896d4a.png",
     "static/media/TwoBigOneSmall.jpg": "/static/media/TwoBigOneSmall.dbc538a3f5b94bd09e4e.jpg",
     "static/media/TwoSmallOneBig.jpg": "/static/media/TwoSmallOneBig.f90a702f34f1b528b464.jpg",
     "static/media/4ozHoney.jpeg": "/static/media/4ozHoney.0420c36982fb9208f5b3.jpeg",
@@ -17,12 +18,12 @@
     "static/media/junegull.ttf": "/static/media/junegull.0504b581bc016597343d.ttf",
     "static/media/Moon Light.otf": "/static/media/Moon Light.b64abc268d3e51c92d4c.otf",
     "index.html": "/index.html",
-    "main.40b9622b.css.map": "/static/css/main.40b9622b.css.map",
-    "main.75bfb450.js.map": "/static/js/main.75bfb450.js.map",
+    "main.fac94a71.css.map": "/static/css/main.fac94a71.css.map",
+    "main.ddcd1e9b.js.map": "/static/js/main.ddcd1e9b.js.map",
     "787.9d0ffed5.chunk.js.map": "/static/js/787.9d0ffed5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40b9622b.css",
-    "static/js/main.75bfb450.js"
+    "static/css/main.fac94a71.css",
+    "static/js/main.ddcd1e9b.js"
   ]
 }
