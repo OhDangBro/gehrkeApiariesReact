@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import chapstickImage from "../../assets/images/ChapstickImages/chapStick.png";
+import soapImage from "../../assets/images/SoapImages/Soap.png";
 import Zoom from "react-reveal/Zoom";
 
 function Chapstick() {
-  const [selectedSize, setSelectedSize] = useState("1.5oz");
+  const [selectedSize, setSelectedSize] = useState("1 Bar - $2.99");
 
   const handleSizeChange = (event) => {
     setSelectedSize(event.target.value);
@@ -16,39 +16,42 @@ function Chapstick() {
           <div className="split sectionLeft">
             <div className="containerChapLeft">
               <Zoom>
-                <h3 className="ourProductChap"> Our Chapstick</h3>
+                <h3 className="ourProductChap ourProductSoap"> Our Soap</h3>
               </Zoom>
               <div className="productLineChap"></div>
               <p className="productTextChap">
-                Experience the power of nature with our all-natural, organic
-                balm made with just three simple ingredients: beeswax from our
-                own hives, coconut oil, and vitamin E.
+              Experience the beauty and benefits of our Beeswax Soap, crafted
+                with care using only the finest natural ingredients.
               </p>
               <p className="productTextChap">
-                Free from parabens, chemicals, and alcohol, our balm harnesses
-                the anti-inflammatory, anti-bacterial, and anti-viral properties
-                of beeswax to nourish and protect your skin.
+              Our soap is handcrafted with the goodness of beeswax, organic
+                oils, and honey, making it perfect for gentle cleansing and
+                nourishing your skin.
               </p>
               <p className="productTextChap">
-                From our hive to your home, enjoy the purest, most effective
-                skincare available."
+              Feel the difference with every wash as you enjoy the soothing
+                and moisturizing properties of beeswax soap, straight from our
+                hive to your home.
               </p>
               <div className="productLineChap ver"></div>
               <div className="centered-elements">
                 <div className="dropdown">
-                  <select value={selectedSize} onChange={handleSizeChange}>
-                    <option value="1.5oz">1.5oz</option>
+                <select value={selectedSize} onChange={handleSizeChange}>
+                    <option value="1 Bar">1 Bar - $2.99</option>
+                    <option value="3 Bars">3 Bars - $8.49</option>
+                    <option value="5 Bars">5 Bars - $13.99</option>
+                    <option value="10 Bars">10 Bars - $26.99</option>
                   </select>
                 </div>
                 <p
                   className="productButtonChap"
                   onClick={() => {
                     alert(
-                      `You selected ${selectedSize}. We're currently out of chapstick. Please check back in October when we'll have more in stock.`
+                      `You selected ${selectedSize}. We're currently out of soap. Please check back in October when we'll have more in stock.`
                     );
                   }}
                 >
-                 Add To Cart
+                  Add To Cart
                 </p>
               </div>
             </div>
@@ -69,11 +72,11 @@ function Chapstick() {
                   <li></li>
                 </ul>
                 <img
-                  className="chapstickImage"
-                  src={chapstickImage}
+                  className="SoapImage"
+                  src={soapImage}
                   alt="chapstick container local chapstick"
                 />
-                <div className="shadowChap"></div>
+                <div className="shadowSoap"></div>
               </div>
             </div>
           </div>

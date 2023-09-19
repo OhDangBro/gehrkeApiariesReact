@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Honey from './components/Honey';
 import Navi from "./components/Navi";
 import Contact from "./components/Contact";
+import Soap from "./components/Soap"
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -18,6 +19,9 @@ function App() {
     }
     if (currentPage === "Chapstick") {
       return <Chapstick />;
+    }
+    if (currentPage === "Soap") {
+      return <Soap />;
     }
     if (currentPage === "Contact") {
       return <Contact />;

@@ -29,6 +29,16 @@
   background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
 }
 
+.shadowSoap {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 12%;
+  margin-left: 112%;
+  background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+}
+
 
 
 img {
@@ -405,6 +415,17 @@ h3 {
   margin-left: 40%;
 }
 
+.SoapImage {
+  width: auto !important;
+  height: 250px !important;
+  margin-top: 125%;
+  margin-left: 100%;
+}
+
+.dropdown {
+  padding-bottom: 5px;
+}
+
 
 /* <------------------------------------- PRODUCT PAGE END ------------------------------> */
 
@@ -610,7 +631,7 @@ textarea {
 
   .leftContainer {
     padding-left: 10%;
-    padding-bottom: 8%;
+    padding-bottom: 35%;
     transform: scale(.9);
 }
 
@@ -651,7 +672,7 @@ textarea {
 }
 
   .ourProductChap {
-    font-size: 25px !important;
+    font-size: 24px !important;
     line-height: 0px;
     padding-left: 5%;
     margin-bottom: 4%;
@@ -706,25 +727,25 @@ textarea {
   }
 
   .productButton {
-    width: 80px;
+    width: 100px;
     margin: 0 10px 0 0;
     padding: 6px 5px;
     background-color: #ffcd4c;
     color: #333;
     text-align: center;
     text-decoration: none;
-    margin-left: 20%;
+    margin-left: 15%;
   }
 
   .productButtonChap {
-    width: 80px;
+    width: 120px;
     margin: 0 10px 0 0;
     padding: 6px 5px;
     background-color: #ffcd4c;
     color: #333;
     text-align: center;
     text-decoration: none;
-    margin-left: 20%;
+    margin-left: 15%;
   }
 
   .gallery {
@@ -753,7 +774,7 @@ textarea {
   }
 
   section {
-    height: 100vh;
+    height: 50vhvh;
     display: flex !important;
     background-color: rgb(4, 4, 4);
     flex-direction: column-reverse !important;
@@ -840,6 +861,8 @@ textarea {
     background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
   }
 
+
+
   .circlesHoney {
     display: none;
   }
@@ -851,9 +874,16 @@ textarea {
     padding-bottom: -8%;
 }
 
+.SoapImage {
+  height: auto;
+  width: auto;
+  margin-top: none !important;
+}
+
 .containerChapLeft {
-  padding-bottom: 15% !important;
+  padding-bottom: 10% !important;
   padding-left: 10%;
+  height: 75vh
 }
 
   .ourProduct {
@@ -877,10 +907,47 @@ textarea {
     width: 40vw !important;
     height: 3vh;
   }
+
+  input.btn {
+    
+    height: 5vh;
+  }
   
   textarea {
     width: 50vw;
     height: 3vh;
+  }
+
+  .SoapImage {
+    height: auto;
+    width: auto;
+    margin-top: -5% !important;
+    margin-left: 25% !important;
+  }
+  
+  .shadowSoap {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 15%;
+    padding-left: 130%;
+    margin-left: -4%;
+    background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+  }
+  
+  .ourProductSoap {
+    font-size: 38px !important;
+  }
+  
+  .dropdown{
+    width: 102px;
+    margin: 0 10px 0 0;
+    padding: 7px 5px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 14%;
   }
 
 }
@@ -1092,10 +1159,7 @@ textarea {
 
   .chapstickImage {
     width: auto !important;
-    height: 368px !important;
-
-    padding-bottom: -19%;
-
+    height: 268px !important;
   }
 
   .heroBigText {
@@ -1126,7 +1190,7 @@ textarea {
   border-radius: 50%;
   margin-top: 10%;
   padding-left: 48%;
-  margin-left: 25%;
+  margin-left: 22%;
   background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
 }
 
@@ -1150,6 +1214,38 @@ input {
 textarea {
   width: 50vw;
   height: 3vh;
+}
+
+.SoapImage {
+  height: auto;
+  width: auto;
+  margin-top: 20% !important;
+  margin-left: 35% !important;
+}
+
+.shadowSoap {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 10%;
+  padding-left: 110%;
+  margin-left: -4%;
+  background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+}
+
+.ourProductSoap {
+  font-size: 45px !important;
+}
+
+.dropdown{
+  width: 102px;
+  margin: 0 10px 0 0;
+  padding: 7px 5px;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 14%;
 }
 
 
@@ -1380,6 +1476,38 @@ textarea {
   padding-bottom: 40%;
 }
 
+.SoapImage {
+  height: auto;
+  width: auto;
+  margin-top: 20% !important;
+  margin-left: 12% !important;
+}
+
+.shadowSoap {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 10%;
+  padding-left: 70%;
+  margin-left: -4%;
+  background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+}
+
+.ourProductSoap {
+  font-size: 47px !important;
+}
+
+.dropdown {
+    width: 102px;
+    margin: 0 10px 0 0;
+    padding: 7px 5px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 12%;
+}
+
 
 
 }
@@ -1510,6 +1638,27 @@ textarea {
     padding-left: 25%;
   }
 
+  .SoapImage {
+    width: auto !important;
+    height: 450px !important;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding-top: 45%;
+    padding-left: 25%;
+  }
+
+  .shadowSoap {
+    position: absolute;
+    width: 189px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 29%;
+    padding-left: 50%;
+    margin-left: 70%;
+    background: radial-gradient(#514a50, rgba(0, 0, 0, 0) 70%);
+  }
+  
+
   .heroBigText {
     font-size: 210px !important;
     margin: 0;
@@ -1542,6 +1691,8 @@ textarea {
     height: 100%;
     z-index: -1;
   }
+
+
 }
 
 
@@ -1712,6 +1863,14 @@ textarea {
     margin-top: 15px;
 }
 
+.SoapImage {
+  margin-top: 60% !important;
+  margin-left: 35% !important;
+}
+
+.shadowSoap {
+  margin-left: 43%;
+}
 
 
 
@@ -1830,6 +1989,7 @@ textarea {
     padding-top: 300%;
     padding-left: 251%;
 }
+
 
   .heroBigText {
     font-size: 300px !important;
