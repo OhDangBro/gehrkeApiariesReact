@@ -24,8 +24,7 @@ function Chapstick() {
                 with care using only the finest natural ingredients.
               </p>
               <p className="productTextChap">
-              Our soap is handcrafted with the goodness of beeswax, organic
-                oils, and honey, making it perfect for gentle cleansing and
+              Our soap is handcrafted with the goodness of beeswax and organic oils, making it perfect for gentle cleansing and
                 nourishing your skin.
               </p>
               <p className="productTextChap">
